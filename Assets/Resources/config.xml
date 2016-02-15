@@ -1,0 +1,2070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<build_conf>
+		<allow_planet>
+			<!--This building can build on planet (planet_type=1)-->
+			<bulding>1</bulding>
+			<bulding>2</bulding>
+			<bulding>3</bulding>
+			<bulding>4</bulding>
+			<bulding>12</bulding>
+			<bulding>14</bulding>
+			<bulding>15</bulding>
+			<bulding>21</bulding>
+			<bulding>22</bulding>
+			<bulding>23</bulding>
+			<bulding>24</bulding>
+			<bulding>31</bulding>
+			<bulding>33</bulding>
+			<bulding>35</bulding>
+			<bulding>43</bulding>
+			<bulding>45</bulding>
+			<research>106</research>
+			<research>108</research>
+			<research>109</research>
+			<research>110</research>
+			<research>111</research>
+			<research>113</research>
+			<research>114</research>
+			<research>115</research>
+			<research>117</research>
+			<research>118</research>
+			<research>120</research>
+			<research>121</research>
+			<research>122</research>
+			<research>124</research>
+			<research>150</research>
+			<research>199</research>
+			<fleet>202</fleet>
+			<fleet>203</fleet>
+			<fleet>204</fleet>
+			<fleet>205</fleet>
+			<fleet>206</fleet>
+			<fleet>207</fleet>
+			<fleet>208</fleet>
+			<fleet>209</fleet>
+			<fleet>210</fleet>
+			<fleet>211</fleet>
+			<fleet>212</fleet>
+			<fleet>213</fleet>
+			<fleet>214</fleet>
+			<fleet>215</fleet>
+			<!--<fleet>216</fleet>-->
+			<defense>401</defense>
+			<defense>402</defense>
+			<defense>403</defense>
+			<defense>404</defense>
+			<defense>405</defense>
+			<defense>406</defense>
+			<defense>407</defense>
+			<defense>408</defense>
+			<!--<defense>409</defense>-->
+		</allow_planet>
+	</build_conf>
+	<resources>
+		<resource id="1">
+			<technical_name>titan_mine</technical_name>
+			<good_name>Титановая шахта</good_name>
+		</resource>
+		<resource id="2">
+		    <technical_name>silicon_mine</technical_name>
+			<good_name>Кремниевая шахта</good_name>
+	    </resource>
+		<resource id="3">
+		    <technical_name>antimatter_sintetizer</technical_name>
+			<good_name>Коллайдер</good_name>
+		</resource>
+		<resource id="4">
+		    <technical_name>solar_plant</technical_name>
+			<good_name>Нейтринная электростанция</good_name>
+		</resource>
+		<resource id="12">
+		    <technical_name>fusion_plant</technical_name>
+			<good_name>Аннигиляционный реактор</good_name>
+		</resource>
+		<resource id="14">
+		    <technical_name>robot_factory</technical_name>
+			<good_name>Робофабрика</good_name>
+		</resource>
+		<resource id="15">
+		    <technical_name>nano_factory</technical_name>
+			<good_name>Нанофабрика</good_name>
+		</resource>
+		<resource id="21">
+		    <technical_name>hangar</technical_name>
+			<good_name>Док</good_name>
+		</resource>
+		<resource id="22">
+		    <technical_name>titan_store</technical_name>
+			<good_name>Склад титана</good_name>
+		</resource>
+		<resource id="23">
+		    <technical_name>silicon_store</technical_name>
+			<good_name>Склад кремния</good_name>
+		</resource>
+		<resource id="24">
+		    <technical_name>antimatter_store</technical_name>
+			<good_name>Склад антиматерии</good_name>
+		</resource>
+		<resource id="31">
+		    <technical_name>laboratory</technical_name>
+			<good_name>Научный центр</good_name>
+		</resource>
+		<resource id="33">
+		    <technical_name>terraformer</technical_name>
+			<good_name>Планетарный энергоузел</good_name>
+		</resource>
+		<resource id="34">
+		    <technical_name>ally_deposit</technical_name>
+			<good_name>Заправочная база</good_name>
+		</resource>
+		<resource id="35">
+		    <technical_name>nano</technical_name>
+			<good_name>Центр нанотехнологий</good_name>
+		</resource>
+		<resource id="41">
+		    <technical_name>mondbasis</technical_name>
+			<good_name>Лунная станция</good_name>
+		</resource>
+		<resource id="42">
+		    <technical_name>phalanx</technical_name>
+			<good_name>Гравископ</good_name>
+		</resource>
+		<resource id="43">
+		    <technical_name>sprungtor</technical_name>
+			<good_name>Звездные врата</good_name>
+		</resource>
+		<resource id="44">
+		    <technical_name>csilo</technical_name>
+			<good_name>Торпедная батарея</good_name>
+		</resource>
+		<resource id="45">
+		    <technical_name>capitol</technical_name>
+			<good_name>Капитолий</good_name>
+		</resource>
+		<resource id="106">
+		    <technical_name>spy_tech</technical_name>
+			<good_name>Планетарное сканирование</good_name>
+		</resource>
+		<resource id="108">
+		    <technical_name>computer_tech</technical_name>
+			<good_name>Навигация</good_name>
+		</resource>
+		<resource id="109">
+		    <technical_name>military_tech</technical_name>
+			<good_name>Вооружения</good_name>
+		</resource>
+		<resource id="110">
+		    <technical_name>defence_tech</technical_name>
+			<good_name>Защита кораблей</good_name>
+		</resource>
+		<resource id="111">
+		    <technical_name>shield_tech</technical_name>
+			<good_name>Энергетические поля</good_name>
+		</resource>
+		<resource id="113">
+		    <technical_name>energy_tech</technical_name>
+			<good_name>Энергетика</good_name>
+		</resource>
+		<resource id="114">
+		    <technical_name>hyperspace_tech</technical_name>
+			<good_name>Перемещение в подпространстве</good_name>
+		</resource>
+		<resource id="115">
+		    <technical_name>combustion_tech</technical_name>
+			<good_name>Барионный двигатель</good_name>
+		</resource>
+		<resource id="117">
+		    <technical_name>impulse_motor_tech</technical_name>
+			<good_name>Аннигиляционный двигатель</good_name>
+		</resource>
+		<resource id="118">
+		    <technical_name>hyperspace_motor_tech</technical_name>
+			<good_name>Подпространственный двигатель</good_name>
+		</resource>
+		<resource id="120">
+		    <technical_name>laser_tech</technical_name>
+			<good_name>Боевые лазеры</good_name>
+		</resource>
+		<resource id="121">
+		    <technical_name>ionic_tech</technical_name>
+			<good_name>Фотонное оружие</good_name>
+		</resource>
+		<resource id="122">
+		    <technical_name>buster_tech</technical_name>
+			<good_name>Лептонное оружие</good_name>
+		</resource>
+		<resource id="123">
+		    <technical_name>intergalactic_tech</technical_name>
+			<good_name>эта технология пока недоступна в игре</good_name>
+		</resource>
+		<resource id="124">
+		    <technical_name>expedition_tech</technical_name>
+			<good_name>Тахионное сканирование</good_name>
+		</resource>
+		<resource id="150">
+		    <technical_name>colonisation_tech</technical_name>
+			<good_name>Освоение планет</good_name>
+		</resource>
+		<resource id="199">
+		    <technical_name>graviton_tech</technical_name>
+			<good_name>Вибротрон</good_name>
+		</resource>
+		<resource id="202">
+		    <technical_name>small_ship_cargo</technical_name>
+			<good_name>Шатл</good_name>
+		</resource>
+		<resource id="203">
+		    <technical_name>big_ship_cargo</technical_name>
+			<good_name>Транспорт</good_name>
+		</resource>
+		<resource id="204">
+		    <technical_name>light_hunter</technical_name>
+			<good_name>Истребитель</good_name>
+		</resource>
+		<resource id="205">
+		    <technical_name>heavy_hunter</technical_name>
+			<good_name>Штурмовик</good_name>
+		</resource>
+		<resource id="206">
+		    <technical_name>crusher</technical_name>
+			<good_name>Корвет</good_name>
+		</resource>
+		<resource id="207">
+		    <technical_name>battle_ship</technical_name>
+			<good_name>Фрегат</good_name>
+		</resource>
+		<resource id="208">
+		    <technical_name>colonizer</technical_name>
+			<good_name>Первопроходец</good_name>
+		</resource>
+		<resource id="209">
+		    <technical_name>recycler</technical_name>
+			<good_name>Коллектор</good_name>
+		</resource>
+		<resource id="210">
+		    <technical_name>spy_sonde</technical_name>
+			<good_name>Разведзонд</good_name>
+		</resource>
+		<resource id="211">
+		    <technical_name>bomber_ship</technical_name>
+			<good_name>Бомбардир</good_name>
+		</resource>
+		<resource id="212">
+		    <technical_name>solar_satelit</technical_name>
+			<good_name>Энергодрон</good_name>
+		</resource>
+		<resource id="213">
+		    <technical_name>destructor</technical_name>
+			<good_name>Разрушитель</good_name>
+		</resource>
+		<resource id="214">
+		    <technical_name>dearth_star</technical_name>
+			<good_name>Колосс</good_name>
+		</resource>
+		<resource id="215">
+		    <technical_name>battleship</technical_name>
+			<good_name>Галактион</good_name>
+		</resource>
+		<resource id="216">
+		    <technical_name>supernova</technical_name>
+			<good_name>Армагеддон</good_name>
+		</resource>
+		<resource id="401">
+		    <technical_name>misil_launcher</technical_name>
+			<good_name>Ракетный блок</good_name>
+		</resource>
+		<resource id="402">
+		    <technical_name>small_laser</technical_name>
+			<good_name>Инфракрасный лазер</good_name>
+		</resource>
+		<resource id="403">
+		    <technical_name>big_laser</technical_name>
+			<good_name>Ультрафиолетовый лазер</good_name>
+		</resource>
+		<resource id="404">
+		    <technical_name>gauss_canyon</technical_name>
+			<good_name>Гравитонное орудие</good_name>
+		</resource>
+		<resource id="405">
+		    <technical_name>ionic_canyon</technical_name>
+			<good_name>Фотонная пушка</good_name>
+		</resource>
+		<resource id="406">
+		    <technical_name>buster_canyon</technical_name>
+			<good_name>Лептонная пушка</good_name>
+		</resource>
+		<resource id="407">
+		    <technical_name>small_protection_shield</technical_name>
+			<good_name>Малый энергокупол</good_name>
+		</resource>
+		<resource id="408">
+		    <technical_name>big_protection_shield</technical_name>
+			<good_name>Большой энергокупол</good_name>
+		</resource>
+		<resource id="409">
+		    <technical_name>planet_protector</technical_name>
+			<good_name>Планетарная оборона</good_name>
+		</resource>
+		<resource id="502">
+		    <technical_name>interceptor_misil</technical_name>
+			<good_name>Противоракетная защита</good_name>
+		</resource>
+		<resource id="503">
+		    <technical_name>interplanetary_misil</technical_name>
+			<good_name>Межпланетная торпеда</good_name>
+		</resource>
+		<resource id="601">rpg_geologue</resource>
+		<resource id="602">rpg_amiral</resource>
+		<resource id="603">rpg_ingenieur</resource>
+		<resource id="604">rpg_technocrate</resource>
+		<resource id="605">rpg_constructeur</resource>
+		<resource id="606">rpg_scientifique</resource>
+		<resource id="607">rpg_stockeur</resource>
+		<resource id="608">rpg_defenseur</resource>
+		<resource id="609">rpg_bunker</resource>
+		<resource id="610">rpg_espion</resource>
+		<resource id="611">rpg_commandant</resource>
+		<resource id="612">rpg_destructeur</resource>
+		<resource id="613">rpg_general</resource>
+		<resource id="614">rpg_raideur</resource>
+		<resource id="615">rpg_empereur</resource>
+	</resources>
+	<requeriments>
+		<requeriment id="12">
+			<element id="3" count="5" />
+			<element id="113" count="3" />
+		</requeriment>
+		<requeriment id="15">
+			<element id="14" count="10" />
+			<element id="108" count="10" />
+		</requeriment>
+		<element id="108" count="10" />
+		<requeriment id="21">
+			<element id="14" count="2" />
+		</requeriment>
+		<requeriment id="33">
+			<element id="15" count="1" />
+			<element id="113" count="12" />
+		</requeriment>
+		<requeriment id="35">
+			<element id="31" count="10" />
+			<element id="113" count="10" />
+		</requeriment>
+		<requeriment id="42">
+			<element id="41" count="1" />
+		</requeriment>
+		<requeriment id="43">
+			<element id="21" count="8" />
+			<element id="114" count="10" />
+			<element id="124" count="10" />
+		</requeriment>
+		<requeriment id="106">
+			<element id="31" count="3" />
+		</requeriment>
+		<requeriment id="108">
+			<element id="31" count="1" />
+		</requeriment>
+		<requeriment id="109">
+			<element id="31" count="4" />
+		</requeriment>
+		<requeriment id="110">
+			<element id="113" count="3" />
+			<element id="31" count="6" />
+		</requeriment>
+		<requeriment id="111">
+			<element id="31" count="2" />
+		</requeriment>
+		<requeriment id="113">
+			<element id="31" count="1" />
+		</requeriment>
+		<requeriment id="114">
+			<element id="113" count="5" />
+			<element id="110" count="5" />
+			<element id="31" count="7" />
+		</requeriment>
+		<requeriment id="115">
+			<element id="113" count="1" />
+			<element id="31" count="1" />
+		</requeriment>
+		<requeriment id="117">
+			<element id="113" count="1" />
+			<element id="31" count="2" />
+		</requeriment>
+		<requeriment id="118">
+			<element id="114" count="3" />
+			<element id="31" count="7" />
+		</requeriment>
+		<requeriment id="120">
+			<element id="31" count="1" />
+			<element id="113" count="2" />
+		</requeriment>
+		<requeriment id="121">
+			<element id="31" count="4" />
+			<element id="120" count="5" />
+			<element id="113" count="4" />
+		</requeriment>
+		<requeriment id="122">
+			<element id="31" count="5" />
+			<element id="113" count="8" />
+			<element id="120" count="10" />
+			<element id="121" count="5" />
+		</requeriment>
+		<requeriment id="123">
+			<element id="31" count="10" />
+			<element id="108" count="8" />
+			<element id="114" count="8" />
+		</requeriment>
+		<requeriment id="124">
+			<element id="31" count="3" />
+			<element id="108" count="4" />
+			<element id="117" count="3" />
+		</requeriment>
+		<requeriment id="150">
+			<element id="31" count="3" />
+			<element id="113" count="5" />
+			<element id="111" count="2" />
+		</requeriment>
+		<requeriment id="199">
+			<element id="31" count="12" />
+		</requeriment>
+		<requeriment id="202">
+			<element id="21" count="2" />
+			<element id="115" count="2" />
+		</requeriment>
+		<requeriment id="203">
+			<element id="21" count="4" />
+			<element id="115" count="6" />
+		</requeriment>
+		<requeriment id="204">
+			<element id="21" count="1" />
+			<element id="115" count="1" />
+		</requeriment>
+		<requeriment id="205">
+			<element id="21" count="3" />
+			<element id="111" count="2" />
+			<element id="117" count="2" />
+		</requeriment>
+		<requeriment id="206">
+			<element id="21" count="5" />
+			<element id="117" count="4" />
+			<element id="121" count="2" />
+		</requeriment>
+		<requeriment id="207">
+			<element id="21" count="7" />
+			<element id="118" count="4" />
+		</requeriment>
+		<requeriment id="208">
+			<element id="21" count="4" />
+			<element id="117" count="3" />
+			<element id="150" count="2" />
+		</requeriment>
+		<requeriment id="209">
+			<element id="21" count="4" />
+			<element id="115" count="6" />
+			<element id="110" count="2" />
+		</requeriment>
+		<requeriment id="210">
+			<element id="21" count="3" />
+			<element id="115" count="3" />
+			<element id="106" count="2" />
+		</requeriment>
+		<requeriment id="211">
+			<element id="117" count="6" />
+			<element id="21" count="8" />
+			<element id="122" count="5" />
+		</requeriment>
+		<requeriment id="212">
+			<element id="21" count="1" />
+		</requeriment>
+		<requeriment id="213">
+			<element id="21" count="9" />
+			<element id="118" count="6" />
+			<element id="114" count="5" />
+		</requeriment>
+		<requeriment id="214">
+			<element id="21" count="12" />
+			<element id="118" count="7" />
+			<element id="114" count="6" />
+			<element id="199" count="1" />
+		</requeriment>
+		<requeriment id="215">
+			<element id="114" count="5" />
+			<element id="120" count="12" />
+			<element id="118" count="5" />
+			<element id="21" count="8" />
+		</requeriment>
+		<requeriment id="216">
+			<element id="614" count="1" />
+		</requeriment>
+		<requeriment id="401">
+			<element id="21" count="1" />
+		</requeriment>
+		<requeriment id="402">
+			<element id="113" count="1" />
+			<element id="21" count="2" />
+			<element id="120" count="3" />
+		</requeriment>
+		<requeriment id="403">
+			<element id="113" count="3" />
+			<element id="21" count="4" />
+			<element id="120" count="6" />
+		</requeriment>
+		<requeriment id="404">
+			<element id="21" count="6" />
+			<element id="113" count="6" />
+			<element id="109" count="3" />
+			<element id="110" count="1" />
+		</requeriment>
+		<requeriment id="405">
+			<element id="21" count="4" />
+			<element id="121" count="4" />
+		</requeriment>
+		<requeriment id="406">
+			<element id="21" count="8" />
+			<element id="122" count="7" />
+		</requeriment>
+		<requeriment id="407">
+			<element id="110" count="2" />
+			<element id="21" count="1" />
+		</requeriment>
+		<requeriment id="408">
+			<element id="110" count="6" />
+			<element id="21" count="6" />
+		</requeriment>
+		<requeriment id="409">
+			<element id="609" count="1" />
+		</requeriment>
+		<requeriment id="502">
+			<element id="44" count="2" />
+		</requeriment>
+		<requeriment id="503">
+			<element id="44" count="4" />
+		</requeriment>
+		<requeriment id="603">
+			<element id="601" count="5" />
+		</requeriment>
+		<requeriment id="604">
+			<element id="602" count="5" />
+		</requeriment>
+		<requeriment id="605">
+			<element id="601" count="10" />
+			<element id="603" count="2" />
+		</requeriment>
+		<requeriment id="606">
+			<element id="601" count="10" />
+			<element id="603" count="2" />
+		</requeriment>
+		<requeriment id="607">
+			<element id="605" count="1" />
+		</requeriment>
+		<requeriment id="608">
+			<element id="606" count="1" />
+		</requeriment>
+		<requeriment id="609">
+			<element id="601" count="20" />
+			<element id="603" count="10" />
+			<element id="605" count="3" />
+			<element id="606" count="3" />
+			<element id="607" count="2" />
+			<element id="608" count="2" />
+		</requeriment>
+		<requeriment id="610">
+			<element id="602" count="10" />
+			<element id="604" count="5" />
+		</requeriment>
+		<requeriment id="611">
+			<element id="602" count="10" />
+			<element id="604" count="5" />
+		</requeriment>
+		<requeriment id="612">
+			<element id="610" count="1" />
+		</requeriment>
+		<requeriment id="613">
+			<element id="611" count="1" />
+		</requeriment>
+		<requeriment id="614">
+			<element id="602" count="20" />
+			<element id="604" count="10" />
+			<element id="610" count="2" />
+			<element id="611" count="2" />
+			<element id="612" count="1" />
+			<element id="613" count="3" />
+		</requeriment>
+		<requeriment id="615">
+			<element id="614" count="1" />
+			<element id="609" count="1" />
+		</requeriment>
+	</requeriments>
+	<pricelist>
+		<element id="1">
+			<param metal="60" crystal="15" deuterium="0" energy="0" factor="1.5" />
+		</element>
+		<element id="2">
+			<param metal="48" crystal="24" deuterium="0" energy="0" factor="1.6" />
+		</element>
+		<element id="3">
+			<param metal="225" crystal="75" deuterium="0" energy="0"
+				factor="1.5" />
+		</element>
+		<element id="4">
+			<param metal="75" crystal="30" deuterium="0" energy="0" factor="1.5" />
+		</element>
+		<element id="12">
+			<param metal="900" crystal="360" deuterium="180" energy="0"
+				factor="1.8" />
+		</element>
+		<element id="14">
+			<param metal="400" crystal="120" deuterium="200" energy="0"
+				factor="2" />
+		</element>
+		<element id="15">
+			<param metal="1000000" crystal="500000" deuterium="100000"
+				energy="0" factor="2" />
+		</element>
+		<element id="21">
+			<param metal="400" crystal="200" deuterium="100" energy="0"
+				factor="2" />
+		</element>
+		<element id="22">
+			<param metal="2000" crystal="0" deuterium="0" energy="0"
+				factor="2" />
+		</element>
+		<element id="23">
+			<param metal="2000" crystal="1000" deuterium="0" energy="0"
+				factor="2" />
+		</element>
+		<element id="24">
+			<param metal="2000" crystal="2000" deuterium="0" energy="0"
+				factor="2" />
+		</element>
+		<element id="31">
+			<param metal="200" crystal="400" deuterium="200" energy="0"
+				factor="2" />
+		</element>
+		<element id="33">
+			<param metal="0" crystal="50000" deuterium="100000" energy="1000"
+				factor="2" />
+		</element>
+		<element id="34">
+			<param metal="20000" crystal="40000" deuterium="0" energy="0"
+				factor="2" />
+		</element>
+		<element id="35">
+			<param metal="1500000" crystal="750000" deuterium="150000"
+				energy="0" factor="2" />
+		</element>
+		<element id="41">
+			<param metal="20000" crystal="40000" deuterium="20000" energy="0"
+				factor="2" />
+		</element>
+		<element id="42">
+			<param metal="20000" crystal="40000" deuterium="20000" energy="0"
+				factor="2" />
+		</element>
+		<element id="43">
+			<param metal="2000000" crystal="4000000" deuterium="2000000"
+				energy="0" factor="2" />
+		</element>
+		<element id="44">
+			<param metal="20000" crystal="20000" deuterium="1000" energy="0"
+				factor="2" />
+		</element>
+		<element id="45">
+			<param metal="2000000" crystal="1000000" deuterium="200000"
+				energy="0" factor="2">
+			</param>
+		</element>
+		<element id="106">
+			<param metal="200" crystal="1000" deuterium="200" energy="0"
+				factor="2" />
+		</element>
+		<element id="108">
+			<param metal="0" crystal="400" deuterium="600" energy="0"
+				factor="2" />
+		</element>
+		<element id="109">
+			<param metal="800" crystal="200" deuterium="0" energy="0"
+				factor="2" />
+		</element>
+		<element id="110">
+			<param metal="200" crystal="600" deuterium="0" energy="0"
+				factor="2" />
+		</element>
+		<element id="111">
+			<param metal="1000" crystal="0" deuterium="0" energy="0"
+				factor="2" />
+		</element>
+		<element id="113">
+			<param metal="0" crystal="800" deuterium="400" energy="0"
+				factor="2" />
+		</element>
+		<element id="114">
+			<param metal="0" crystal="4000" deuterium="2000" energy="0"
+				factor="2" />
+		</element>
+		<element id="115">
+			<param metal="400" crystal="0" deuterium="600" energy="0"
+				factor="2" />
+		</element>
+		<element id="117">
+			<param metal="2000" crystal="4000" deuterium="600" energy="0"
+				factor="2" />
+		</element>
+		<element id="118">
+			<param metal="10000" crystal="20000" deuterium="6000" energy="0"
+				factor="2" />
+		</element>
+		<element id="120">
+			<param metal="200" crystal="100" deuterium="0" energy="0"
+				factor="2" />
+		</element>
+		<element id="121">
+			<param metal="1000" crystal="300" deuterium="100" energy="0"
+				factor="2" />
+		</element>
+		<element id="122">
+			<param metal="2000" crystal="4000" deuterium="1000" energy="0"
+				factor="2" />
+		</element>
+		<element id="123">
+			<param metal="240000" crystal="400000" deuterium="160000"
+				energy="0" factor="2" />
+		</element>
+		<element id="124">
+			<param metal="4000" crystal="8000" deuterium="4000" energy="0"
+				factor="2" />
+		</element>
+		<element id="150">
+			<param metal="1000" crystal="4000" deuterium="1000" energy="0"
+				factor="2" />
+		</element>
+		<element id="199">
+			<param metal="0" crystal="0" deuterium="0" factor="3" energy_cost="300000"/>
+		</element>
+		<element id="202">
+			<param metal="2000" crystal="2000" deuterium="0" energy="0"
+				factor="1" consumption="20" consumption2="40" speed="5000" speed2="10000"
+				capacity="5000" />
+		</element>
+		<element id="203">
+			<param metal="6000" crystal="6000" deuterium="0" energy="0"
+				factor="1" consumption="50" consumption2="50" speed="7500" speed2="7500"
+				capacity="25000" />
+		</element>
+		<element id="204">
+			<param metal="3000" crystal="1000" deuterium="0" energy="0"
+				factor="1" consumption="20" consumption2="20" speed="12500" speed2="12500"
+				capacity="50" />
+		</element>
+		<element id="205">
+			<param metal="6000" crystal="4000" deuterium="0" energy="0"
+				factor="1" consumption="75" consumption2="75" speed="10000" speed2="15000"
+				capacity="100" />
+		</element>
+		<element id="206">
+			<param metal="20000" crystal="7000" deuterium="2000" energy="0"
+				factor="1" consumption="300" consumption2="300" speed="15000"
+				speed2="15000" capacity="800" />
+		</element>
+		<element id="207">
+			<param metal="45000" crystal="15000" deuterium="0" energy="0"
+				factor="1" consumption="500" consumption2="500" speed="10000"
+				speed2="10000" capacity="1500" />
+		</element>
+		<element id="208">
+			<param metal="10000" crystal="20000" deuterium="10000" energy="0"
+				factor="1" consumption="1000" consumption2="1000" speed="2500"
+				speed2="2500" capacity="7500" />
+		</element>
+		<element id="209">
+			<param metal="10000" crystal="6000" deuterium="2000" energy="0"
+				factor="1" consumption="300" consumption2="300" speed="2000" speed2="2000"
+				capacity="20000" />
+		</element>
+		<element id="210">
+			<param metal="0" crystal="1000" deuterium="0" energy="0"
+				factor="1" consumption="1" consumption2="1" speed="100000000"
+				speed2="100000000" capacity="5" />
+		</element>
+		<element id="211">
+			<param metal="50000" crystal="25000" deuterium="15000" energy="0"
+				factor="1" consumption="1000" consumption2="1000" speed="4000"
+				speed2="5000" capacity="500" />
+		</element>
+		<element id="212">
+			<param metal="0" crystal="2000" deuterium="500" energy="0"
+				factor="1" consumption="0" consumption2="0" speed="0" speed2="0"
+				capacity="0" />
+		</element>
+		<element id="213">
+			<param metal="60000" crystal="50000" deuterium="15000" energy="0"
+				factor="1" consumption="1000" consumption2="1000" speed="5000"
+				speed2="5000" capacity="2000" />
+		</element>
+		<element id="214">
+			<param metal="5000000" crystal="4000000" deuterium="1000000"
+				energy="0" factor="1" consumption="1" consumption2="1" speed="100"
+				speed2="100" capacity="1000000" />
+		</element>
+		<element id="215">
+			<param metal="30000" crystal="40000" deuterium="15000" energy="0"
+				factor="1" consumption="250" consumption2="250" speed="10000"
+				speed2="10000" capacity="750" />
+		</element>
+		<element id="216">
+			<param metal="20000000" crystal="15000000" deuterium="5000000"
+				energy="0" factor="1" consumption="250" consumption2="250" speed="150"
+				speed2="150" capacity="2000000" />
+		</element>
+		<element id="401">
+			<param metal="2000" crystal="0" deuterium="0" energy="0"
+				factor="1" />
+		</element>
+		<element id="402">
+			<param metal="1500" crystal="500" deuterium="0" energy="0"
+				factor="1" />
+		</element>
+		<element id="403">
+			<param metal="6000" crystal="2000" deuterium="0" energy="0"
+				factor="1" />
+		</element>
+		<element id="404">
+			<param metal="20000" crystal="15000" deuterium="2000" energy="0"
+				factor="1" />
+		</element>
+		<element id="405">
+			<param metal="2000" crystal="6000" deuterium="0" energy="0"
+				factor="1" />
+		</element>
+		<element id="406">
+			<param metal="50000" crystal="50000" deuterium="30000" energy="0"
+				factor="1" />
+		</element>
+		<element id="407">
+			<param metal="10000" crystal="10000" deuterium="0" energy="0"
+				factor="1" />
+		</element>
+		<element id="408">
+			<param metal="50000" crystal="50000" deuterium="0" energy="0"
+				factor="1" />
+		</element>
+		<element id="409">
+			<param metal="10000000" crystal="5000000" deuterium="2500000"
+				energy="0" factor="1" />
+		</element>
+		<element id="502">
+			<param metal="8000" crystal="2000" deuterium="0" energy="0"
+				factor="1" />
+		</element>
+		<element id="503">
+			<param metal="12500" crystal="2500" deuterium="10000" energy="0"
+				factor="1" />
+		</element>
+		<element id="601">
+			<param max="20" />
+		</element>
+		<element id="602">
+			<param max="20" />
+		</element>
+		<element id="603">
+			<param max="10" />
+		</element>
+		<element id="604">
+			<param max="10" />
+		</element>
+		<element id="605">
+			<param max="3" />
+		</element>
+		<element id="606">
+			<param max="3" />
+		</element>
+		<element id="607">
+			<param max="2" />
+		</element>
+		<element id="608">
+			<param max="2" />
+		</element>
+		<element id="609">
+			<param max="1" />
+		</element>
+		<element id="610">
+			<param max="2" />
+		</element>
+		<element id="611">
+			<param max="2" />
+		</element>
+		<element id="612">
+			<param max="1" />
+		</element>
+		<element id="613">
+			<param max="3" />
+		</element>
+		<element id="614">
+			<param max="1" />
+		</element>
+		<element id="615">
+			<param max="1" />
+		</element>
+	</pricelist>
+	<help>
+		<bonusItem1>
+			<title><![CDATA[Связист - Уведомления об атаке]]></title>
+			<text><![CDATA[Вы можете оплатить услугу отправки уведомлений об атаке на ваши планеты.
+Если услуга оплачена, вам будут приходить уведомления как только кто-то отправит флот с заданием "Атака" на вашу планету (обязательно прочитайте справку об уведомлениях на закладке Опции).
+Смс-уведомления приходят на телефон, который зарегистрирован на вашем профайле ВКонтакте.
+Уведомления могут также дублироваться на ваш почтовый ящик, если вы указали ваш email на закладке "Опции". Если емайл не указан, приходят только смс-уведомления.
+ВНИМАНИЕ! Уведомления не будут приходить чаще, чем 1 раз в час, поэтому если после первой атаки на вас вылетят другие флоты, то в течение 1 часа о других атаках уведомление приходить НЕ будет. Это сделано для предотвращения спама.]]></text>
+		</bonusItem1>
+		<bonusItem2>
+			<title><![CDATA[Адмирал - скорость флота]]></title>
+			<text><![CDATA[Адмирал координирует действия кораблей в вашем флоте, ускоряя полет ваших флотов на 10%.
+Увеличение скорости кораблей также означает, что в бою, более быстрые корабли будут стрелять первыми, и наличие генерала дает вам весьма значительное преимущество над игроками, у которых его нет.
+ВНИМАНИЕ! Увеличение скорости полета на 10% не означает уменьшение времени полета на 10%, читайте подробнее на нашем форуме как рассчитывается время полета. Также увеличение скорости означает пропорционально увеличение расходов антиматерии.]]></text>
+		</bonusItem2>
+		<bonusItem3>
+			<title><![CDATA[Инженер - производство]]></title>
+			<text><![CDATA[Инженер увеличивает производительность ваших заводов и фабрик - постройка кораблей, обороны и зданий увеличивается на 25%.]]></text>
+		</bonusItem3>
+		<bonusItem4>
+			<title><![CDATA[Геолог - выработка шахт]]></title>
+			<text><![CDATA[Геолог исследует залежи кремниевых и металлических руд.
+Ваши шахты под руководством опытного геолога производят на 10% ресурсов больше.]]></text>
+		</bonusItem4>
+		<bonusItem5>
+			<title><![CDATA[Профессор - исследования]]></title>
+			<text><![CDATA[Профессор решает сложнейшие задачи, увеличивая скорость исследований на 40% и экономя ваше время.]]></text>
+		</bonusItem5>
+		<BonusesList>
+			<title><![CDATA[Бонусы за кредиты]]></title>
+			<text><![CDATA[текст]]></text>
+			<htmltext><![CDATA[
+Краткий список, что можно приобрести за кредиты:
+
+<b>1. Закладка Планета - "Изменить":</b>
+	20 кр. - Переименовка планеты.
+	40 кр. - добавить дополнительный сектор на планете для постройки зданий
+	10 кр. - Изменение температуру на планете на 1 градус вверх или вниз
+
+<b>2. Биржа:</b>
+	Вы можете приобрести ресурсы, которые продают другие игроки за кредиты
+	Вы можете выставить ваши ресурсы за кредиты, с административным налогом
+
+<b>3. Закладка Опции:</b>
+	60 кр. - В случае необходимости, вы можете выйти из отпуска <b>ДОСРОЧНО</b>.
+
+<b>4. Закладка VIP. На текущий момент доступны такие бонусы:</b>
+	<b>Связист</b>   - уведомления об атаках по смс/емайл
+	<b>Адмирал</b>   - Скорость ваших кораблей +10%
+	<b>Инженер</b>   - Скорость построек зданий, кораблей и обороны +25%
+	<b>Геолог</b>    - добыча титановых и кремниевых шахт +10%
+	<b>Профессор</b> - Скорость исследований +40%
+
+<b>5. Закладка Альянсы:</b>
+	200 кр. - Создать свой альянс
+	40 кр. - переименовать альянс (некорректные имена могут быть изменены администрацией без предупреждения)
+
+]]></htmltext>
+		</BonusesList>
+		<FleetFlyAttackItem>
+			<title><![CDATA[Флоты]]></title>
+			<text><![CDATA[Напоминаем, что флот с заданием <b>"транспортировка"</b> и </b>"шпионаж"</b> отменить нельзя.]]></text>
+		</FleetFlyAttackItem>
+
+		<FleetSend>
+			<title><![CDATA[Отправка флота]]></title>
+			<text><![CDATA[При отправке флота, вам доступны определенные задания, которые зависят от выбранных кораблей и координат.
+Максимальная скорость флота рассчитывается по самому медленному кораблю во флоте, при этом затраты антиматерии у более быстрых кораблей флота, уменьшаются пропорционально их вынужденному замедлению.
+В меню отображается время прибытия к цели и время возврата на родную планету, если это предполагается заданием. <b>Реальная точность прилета флотов может отличаться на несколько секунд!</b>
+В графе "Грузоподъемность" отображается количество свободного места в трюмах всего вашего флота минус затраты на антиматерию.
+
+Задание "Атака" доступно для атаки любой чужой планеты, если она не находятся в отпуске/бане или под защитой. Также нельзя атаковать свои колонии и своих союзников. Игроки альянса могут создавать совместные атаки (САБ - Совместный Альянсный Бой).
+
+Задание "Шпионаж" доступно только для разведзондов. <b>Это задание нельзя отменять!</b>
+
+Задание "Транспортировка" - вы можете перевозить ресурсы между своими колониями и союзниками по альянсу. При перевозе ресурсов союзникам, используется органичение транспортных очков (читайте справку на закладке "Ресурсы"). <b>Это задание нельзя отменить!</b>
+
+Задание "Передислокация" позволит вам переместить корабли с одной вашей планеты на другую. Во время передислокации также можно перевозить ресурсы. !ВНИМАНИЕ! Флот с ресурсами отменять НЕЛЬЗЯ!
+
+Задание "Защита" доступно только для альянсников. Вы можете отправить корабли на планету вашего союзника, чтобы помочь ему отражать атаки врагов. На планете, которая принимает союзные флоты должна быть построена Заправочная Станция.
+
+Задание "Переработка" доступно только для флотов с коллекторами. Коллекторы могут собрать обломки на орбите планет. При сборе обломков, учитывается грузоподъемность только коллекторов.
+]]></text>
+		</FleetSend>
+
+		<Planet_Overview>
+			<title><![CDATA[Планеты и колонии]]></title>
+			<text><![CDATA[
+Информация о планетах:
+Сектора на планете используются под застройку зданиями. Вы можете их увеличить, построив планетарный энергоузел или купив за кредиты ("Изменить" на закладке планеты).
+Температура планеты влияет на выработку электроэнергии энергодронами и на выработку антиматерии в коллайдере. Высокая температура увеличивает выработку электроэнергии, низкая - антиматерии.
+Обломки на орбите остаются после сражений или от разбитых разведзондов. Их можно собрать с орбиты, послав "Коллектор" с заданием "Переработка". От уничтоженных кораблей 30% их стоимости выпадает в обломки.
+
+Кроме основной планеты, вы можете создать колонии (для этого постройте корабль "Первопроходец" и отправьте его на пустые координаты в галактике с заданием "Колонизация"). Если все пройдет удачно, у вас появится новая планета.
+Вы можете удалить ваши колонии, но не основную планету, при этом колония помечается как удаленная, и окончательное удаление произойдет в течение суток. Главную планету нельзя удалить. Также нельзя удалить планету, с которой вылетел и не вернулся флот, либо на которой идет строительство сооружения.
+
+Нажав <b>"Изменить"</b>, вы можете:
+<b>Переименовать</b> текущую планету. Обратите внимание, что нецензурные названия планет могут быть переименованы администрацией без предупреждения.]]></text>
+		</Planet_Overview>
+    <!--Увеличить количество <b>секторов</b> на планете, если вы застроили все сектора на планете (максимум 330 секторов)
+Увеличить или уменьшить <b>температуру</b>.-->
+		<TechTreeItem id="1">
+			<title><![CDATA[Титановая шахта]]></title>
+			<text><![CDATA[Добыча титана на планете зависит от уровня титановой шахты. Титан - наиболее часто используемый ресурс - практически каждая постройка здания или корабля нуждается в титане, а для больших сооружений или космических монстров вроде Колосса он является основным материалом. Титан самый распространенный ресурс, поэтому его добыча не представляет особой сложности. Титановой шахте требуется электроэнергия для работы.]]></text>
+		</TechTreeItem>
+		<BuildingItem id="1">
+			<title><![CDATA[Титановая шахта]]></title>
+			<text><![CDATA[Добыча титана на планете зависит от уровня титановой шахты. Титан наиболее часто используемый ресурс - практически каждая постройка здания или корабля нуждается в титане, а для больших сооружений или космических монстров вроде Колосса он является основным материалом. Титан самый распространенный ресурс, поэтому его добыча не представляет особой сложности. Титановая шахте требуется электроэнергия для работы.]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="2">
+			<title><![CDATA[Кремниевая шахта]]></title>
+			<text><![CDATA[Кремний нужен для разработки и создания электронного оборудования, он в больших количествах используется в исследованиях и строительстве технических сооружений. Кремний, так же как и титан, очень распространен в галактике, но его добыча происходит гораздо сложнее. Кремниевой шахте требуется электроэнергия для работы.]]></text>
+		</TechTreeItem>
+		<BuildingItem id="2">
+			<title><![CDATA[Кремниевая шахта]]></title>
+			<text><![CDATA[Кремний нужен для разработки и создания электронного оборудования, он в больших количествах используется в исследованиях и строительстве технических сооружений. Кремний, так же как и титан, очень распространен в галактике, но его добыча происходит гораздо сложнее. Кремниевой шахте требуется электроэнергия для работы.]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="3">
+			<title><![CDATA[Коллайдер]]></title>
+			<text><![CDATA[Антиматерия - это основной вид топлива в галактике. Также антиматерия используется для производства двигателей и оружия. Добыча антиматерии происходит путем ее синтеза в адронном коллайдере, и чем больше размер коллайдера, тем больше антиматерии он может создавать. Адронному коллайдеру требуется электроэнергия для работы.]]></text>
+		</TechTreeItem>
+		<BuildingItem id="3">
+			<title><![CDATA[Коллайдер]]></title>
+			<text><![CDATA[Антиматерия - это основной вид топлива в галактике. Также антиматерия используется для производства двигателей и оружия. Добыча антиматерии происходит путем ее синтеза в адронном коллайдере, и чем больше размер коллайдера, тем больше антиматерии он может создавать. Адронному коллайдеру требуется электроэнергия для работы.]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="4">
+			<title><![CDATA[Нейтринная электростанция]]></title>
+			<text><![CDATA[Самый дешевый и безопасный способ производства электричества - нейтринная электростанция. Развивая технологию "энергетика", можно увеличить выработку электричества. Недостаток электроэнергии влияет на производительность ваших шахт.]]></text>
+		</TechTreeItem>
+		<BuildingItem id="4">
+			<title><![CDATA[Нейтринная электростанция]]></title>
+			<text><![CDATA[Самый дешевый и безопасный способ производства электричества - нейтринная электростанция. Развивая технологию "энергетика", можно увеличить выработку электричества. Недостаток электроэнергии влияет на производительность ваших шахт.]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="12">
+			<title><![CDATA[Аннигиляционный реактор]]></title>
+			<text><![CDATA[Аннигиляционный реактор - это новое слово в производстве электричества. Он занимает меньше места, чем нейтринная электростанция и вырабатывает больше электроэнергии. Аннигиляционный реактор нуждается в антиматерии. Развитие Энергетики очень сильно увеличивает производительность реактора.]]></text>
+		</TechTreeItem>
+		<BuildingItem id="12">
+			<title><![CDATA[Аннигиляционный реактор]]></title>
+			<text><![CDATA[Аннигиляционный реактор - это новое слово в производстве электричества. Он занимает меньше места, чем нейтринная электростанция и вырабатывает больше электроэнергии. Аннигиляционный реактор нуждается в антиматерии. Развитие Энергетики очень сильно увеличивает производительность реактора.]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="14">
+			<title><![CDATA[Робофабрика]]></title>
+			<text><![CDATA[Завод по производству и обслуживанию роботов, которые используются для строительства и обслуживания планетарных сооружений. Чем больше уровень Робофабрики, тем больше роботов она может производить и обслуживать. Каждый уровень робофабрики ускоряет постройку планетарных структур на 10% от базового значения. Расширение робофабрики способствует продвижению нанотехнологий.]]></text>
+		</TechTreeItem>
+		<BuildingItem id="14">
+			<title><![CDATA[Робофабрика]]></title>
+			<text><![CDATA[Завод по производству и обслуживанию роботов, которые используются для строительства и обслуживания планетарных сооружений. Чем больше уровень Робофабрики, тем больше роботов она может производить и обслуживать. Каждый уровень робофабрики ускоряет постройку планетарных структур на 10% от базового значения. Расширение робофабрики способствует продвижению нанотехнологий.]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="15">
+			<title><![CDATA[Нанофабрика]]></title>
+			<text><![CDATA[Маленькие нанороботы способны быстро и качественно выполнять сложные и миниатюрные технические работы, что значительно ускоряет строительство сложных планетарных структур, кораблей и оборонительных сооружений. Каждый уровень нанофабрики ускоряет строительство в два раза.]]></text>
+		</TechTreeItem>
+		<BuildingItem id="15">
+			<title><![CDATA[Нанофабрика]]></title>
+			<text><![CDATA[Маленькие нанороботы способны быстро и качественно выполнять сложные и миниатюрные технические работы, что значительно ускоряет строительство сложных планетарных структур, кораблей и оборонительных сооружений. Каждый уровень нанофабрики ускоряет строительство в два раза.]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="21">
+			<title><![CDATA[Док]]></title>
+			<text><![CDATA[Это кузница космических кораблей и планетарных оборонительных сооружений. Увеличение уровня дока позволяет ускорить процесс сборки судов и наземной обороны на 10% за каждый уровень, а в дальнейшем позволит строить сооружения огромных размеров и высокотехнологических планетарных щитов.]]></text>
+		</TechTreeItem>
+		<BuildingItem id="21">
+			<title><![CDATA[Док]]></title>
+			<text><![CDATA[Это кузница космических кораблей и планетарных оборонительных сооружений. Увеличение уровня дока позволяет ускорить процесс сборки судов и наземной обороны на 10% за каждый уровень, а в дальнейшем позволит строить сооружения огромных размеров и высокотехнологических планетарных щитов.]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="22">
+			<title><![CDATA[Склад титана]]></title>
+			<text><![CDATA[Для хранения готового к использованию титана требуется правильно оборудованный склад. Если на складе недостаточно места для хранения титана, добыча титана в шахте останавливается.
+ВНИМАНИЕ! ВСЕ ресурсы, не поместившиеся на склад, пропадают!]]></text>
+		</TechTreeItem>
+		<BuildingItem id="22">
+			<title><![CDATA[Склад титана]]></title>
+			<text><![CDATA[Для хранения готового к использованию титана требуется правильно оборудованный склад. Если на складе недостаточно места для хранения титана, добыча титана в шахте останавливается. Стандартный склад вмещает в себя 1 000 000 титана.
+ВНИМАНИЕ! ВСЕ ресурсы, не поместившиеся на склад, пропадают!]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="23">
+			<title><![CDATA[Склад кремния]]></title>
+			<text><![CDATA[Для хранения готового к использованию кремния требуется правильно оборудованный склад. Если на складе недостаточно места для хранения, добыча кремния в шахте останавливается. Стандартный склад вмещает в себя 1 000 000 сухого кремния.
+ВНИМАНИЕ! ВСЕ ресурсы, не поместившиеся на склад, пропадают!]]></text>
+		</TechTreeItem>
+		<BuildingItem id="23">
+			<title><![CDATA[Склад кремния]]></title>
+			<text><![CDATA[Для хранения готового к использованию кремния требуется правильно оборудованный склад. Если на складе недостаточно места для хранения, добыча кремния в шахте останавливается. Стандартный склад вмещает в себя 1 000 000 сухого кремния.
+ВНИМАНИЕ! ВСЕ ресурсы, не поместившиеся на склад, пропадают!]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="24">
+			<title><![CDATA[Склад антиматерии]]></title>
+			<text><![CDATA[Для хранения готовой к использованию антиматерии требуется правильно оборудованный склад. Если на складе недостаточно места для хранения, коллайдер будет остановлен во избежание утечки энергии. Стандартный склад вмещает в себя 1 000 000 жидкой антиматерии.
+ВНИМАНИЕ! ВСЕ ресурсы, не поместившиеся на склад, пропадают!]]></text>
+		</TechTreeItem>
+		<BuildingItem id="24">
+			<title><![CDATA[Склад антиматерии]]></title>
+			<text><![CDATA[Для хранения готовой к использованию антиматерии требуется правильно оборудованный склад. Если на складе недостаточно места для хранения, коллайдер будет остановлен во избежание утечки энергии. Стандартный склад вмещает в себя 1 000 000 жидкой антиматерии.
+ВНИМАНИЕ! ВСЕ ресурсы, не поместившиеся на склад, пропадают!]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="31">
+			<title><![CDATA[Научный центр]]></title>
+			<text><![CDATA[В научном центре исследуют новые технологии и развивают уже известные. Нередко для прорыва в науке требуются годы работы множества ученых, сложное оборудование и множество ресурсов. Развитие научного центра ускоряет ход исследований на 10% за каждый уровень. Также крупный научный центр дает возможность исследовать новые технологии.]]></text>
+		</TechTreeItem>
+		<BuildingItem id="31">
+			<title><![CDATA[Научный центр]]></title>
+			<text><![CDATA[В научном центре исследуют новые технологии и развивают уже известные. Нередко для прорыва в науке требуются годы работы множества ученых, сложное оборудование и множество ресурсов. Развитие научного центра ускоряет ход исследований на 10% за каждый уровень. Также крупный научный центр дает возможность исследовать новые технологии.]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="33">
+			<title><![CDATA[Планетарный энергоузел]]></title>
+			<text><![CDATA[Планетарный энергоузел позволяет разместить сооружения в несколько ярусов, расширяя место для строительства дополнительных комплексов и структур на планете. Для постройки планетарного узла, требуется как минимум одно свободное место на планете, после постройки добавляется 5 мест.]]></text>
+		</TechTreeItem>
+		<BuildingItem id="33">
+			<title><![CDATA[Планетарный энергоузел]]></title>
+			<text><![CDATA[Планетарный энергоузел позволяет разместить сооружения в несколько ярусов, расширяя место для строительства дополнительных комплексов и структур на планете. Для постройки планетарного узла, требуется как минимум одно свободное место на планете, после постройки добавляется 5 мест.]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="34">
+			<title><![CDATA[Заправочная база]]></title>
+			<text><![CDATA[Орбитальная заправочная база позволяет вашим союзникам отправлять флоты на орбиту вашей планеты для совместной обороны от вражеских атак. Каждый уровень станции позволяет принять еще один дополнительный союзный флот.]]></text>
+		</TechTreeItem>
+		<BuildingItem id="34">
+			<title><![CDATA[Заправочная база]]></title>
+			<text><![CDATA[Орбитальная заправочная база позволяет вашим союзникам отправлять флоты на орбиту вашей планеты для совместной обороны от вражеских атак. Каждый уровень станции позволяет принять еще один дополнительный союзный флот.]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="35">
+			<title><![CDATA[Центр нанотехнологий]]></title>
+			<text><![CDATA[Центр нанотехнологий - это крупное научное учреждение, в котором могут работать тысячи ученых и обустроенное самым современным оборудованием. Это позволяет значительно ускорить научные исследования. Каждый уровень центра нанотехнологий ускоряет ход исследований вдвое.]]></text>
+		</TechTreeItem>
+		<BuildingItem id="35">
+			<title><![CDATA[Центр нанотехнологий]]></title>
+			<text><![CDATA[Центр нанотехнологий - это крупное научное учреждение, в котором могут работать тысячи ученых и обустроенное самым современным оборудованием. Это позволяет значительно ускорить научные исследования. Каждый уровень центра нанотехнологий ускоряет ход исследований вдвое.]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="41">
+			<title><![CDATA[Лунная станция]]></title>
+			<text><![CDATA[это сооружение пока недоступно в игре]]></text>
+		</TechTreeItem>
+		<BuildingItem id="41">
+			<title><![CDATA[Лунная станция]]></title>
+			<text><![CDATA[это сооружение пока недоступно в игре]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="42">
+			<title><![CDATA[Гравископ]]></title>
+			<text><![CDATA[это сооружение пока недоступно в игре]]></text>
+		</TechTreeItem>
+		<BuildingItem id="42">
+			<title><![CDATA[Гравископ]]></title>
+			<text><![CDATA[это сооружение пока недоступно в игре]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="43">
+			<title><![CDATA[Звездные врата]]></title>
+			<text><![CDATA[Орбитальные Звездные врата позволяют переместить ваш флот на другую вашу планету, оборудованную вратами. От уровня врат зависит какого размера флот можно переместить, а также как часто можно активировать врата для отправки флота. Не забывайте, что отправка флота через врата, которые недавно приняли флот сразу невозможна. Чтобы узнать сколько времени осталось до того, как можно будет отправить флот через врата, смотрите на закладке "Планета" графу "Прыжок".]]></text>
+		</TechTreeItem>
+		<BuildingItem id="43">
+			<title><![CDATA[Звездные врата]]></title>
+			<text><![CDATA[Орбитальные Звездные врата позволяют переместить ваш флот на другую вашу планету, оборудованную вратами. От уровня врат зависит какого размера флот можно переместить, а также как часто можно активировать врата для отправки флота. Не забывайте, что отправка флота через врата, которые недавно приняли флот сразу невозможна. Чтобы узнать сколько времени осталось до того, как можно будет отправить флот через врата, смотрите на закладке "Планета" графу "Прыжок".]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="44">
+			<title><![CDATA[Торпедная батарея]]></title>
+			<text><![CDATA[это сооружение пока недоступно в игре]]></text>
+		</TechTreeItem>
+		<BuildingItem id="44">
+			<title><![CDATA[Торпедная батарея]]></title>
+			<text><![CDATA[это сооружение пока недоступно в игре]]></text>
+		</BuildingItem>
+
+		<TechTreeItem id="45">
+			<title><![CDATA[Капитолий]]></title>
+			<text><![CDATA[Капитолий строится в столице вашей империи. Капитолий может быть только на одной планете, если вы строите его на колонии, это означает что старый Капитолий будет разрушен, и столица переедет на новую планету.]]></text>
+		</TechTreeItem>
+		<BuildingItem id="45">
+			<title><![CDATA[Капитолий]]></title>
+			<text><![CDATA[Капитолий строится в столице вашей империи. Капитолий может быть только на одной планете, если вы строите его на колонии, это означает что старый Капитолий будет разрушен, и столица переедет на новую планету.]]></text>
+		</BuildingItem>
+
+		<BuildingPage>
+			<title><![CDATA[Строительство]]></title>
+			<text><![CDATA[Вы можете строить, модернизировать здания повышая их уровень. Для строительства здания или модернизации требуется 1 место на каждый уровень. Некоторые сооружения также потребляют электроэнергию. Грамотно спланируйте застройку на будущее. Робофабрика и Нанофабрика ускоряют ход строительства.]]></text>
+		</BuildingPage>
+
+		<TechTreeItem id="106">
+			<title><![CDATA[Планетарное сканирование]]></title>
+			<text><![CDATA[Технология планетарного сканирования позволяет обнаружить все технологические объекты на планете, не приземляясь на ее поверхность. Развитие технологии позволяет более тщательное сканирование планет и одновременно противодействие сканированию вашей планеты разведзондами. Если вы сканируете планету, с более развитым планетарным сканированием, информация может быть неполной.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="106">
+			<title><![CDATA[Планетарное сканирование]]></title>
+			<text><![CDATA[Технология планетарного сканирования позволяет обнаружить все технологические объекты на планете, не приземляясь на ее поверхность. Развитие технологии позволяет более тщательное сканирование планет и одновременно противодействие сканированию вашей планеты разведзондами. Если вы сканируете планету, с более развитым планетарным сканированием, информация может быть неполной.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="108">
+			<title><![CDATA[Навигация]]></title>
+			<text><![CDATA[Навигация позволяет координировать флоты кораблей в космосе. Без тщательной синхронизации корабли летающие на огромных скоростях могут просто столкнуться друг с другом выполняя даже самые простые маневры. Каждый последующи уровень навигации позволяет вам управлять еще одним дополнительным флотом. Альянсные игроки могут создавать совместные атаки - вы можете присоединиться к такой атаке, если ваш уровень навигации деленный на пять больше, чем количество уже летящих союзных флотов.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="108">
+			<title><![CDATA[Навигация]]></title>
+			<text><![CDATA[Навигация позволяет координировать флоты кораблей в космосе. Без тщательной синхронизации корабли летающие на огромных скоростях могут просто столкнуться друг с другом выполняя даже самые простые маневры. Каждый последующи уровень навигации позволяет вам управлять еще одним дополнительным флотом. Альянсные игроки могут создавать совместные атаки - вы можете присоединиться к такой атаке, если ваш уровень навигации деленный на пять больше, чем количество уже летящих союзных флотов.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="109">
+			<title><![CDATA[Вооружения]]></title>
+			<text><![CDATA[Самая уважаемая технология военными это развитие мощного оружия. Изучение вооружения это разноплановые исследования, которые позволяют сделать более мощными ВСЕ виды вооружений. Каждый уровень увеличивает мощность атаки ваших кораблей и наземных оборонительных сооружений на 10% от базового значения.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="109">
+			<title><![CDATA[Вооружения]]></title>
+			<text><![CDATA[Самая уважаемая технология военными это развитие мощного оружия. Изучение вооружения это разноплановые исследования, которые позволяют сделать более мощными ВСЕ виды вооружений. Каждый уровень увеличивает мощность атаки ваших кораблей и наземных оборонительных сооружений на 10% от базового значения.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="110">
+			<title><![CDATA[Защита кораблей]]></title>
+			<text><![CDATA[Эта технология повышает прочность корпусов для космических кораблей. Она крайне важна для крупных объектов, которые сложно целиком прикрыть энергетическими щитами из-за их огромных размеров. Каждый уровень повышает прочность брони вашего флота и наземных сооружений на 10% от базового значения.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="110">
+			<title><![CDATA[Защита кораблей]]></title>
+			<text><![CDATA[Эта технология повышает прочность корпусов для космических кораблей. Она крайне важна для крупных объектов, которые сложно целиком прикрыть энергетическими щитами из-за их огромных размеров. Каждый уровень повышает прочность брони вашего флота и наземных сооружений на 10% от базового значения.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="111">
+			<title><![CDATA[Энергетические поля]]></title>
+			<text><![CDATA[Защитные энергетические поля это самый первый и рубеж обороны, позволяющий сдерживать атаку вообще без потерь. Каждый уровень технологии увеличивает энергетические щиты ваших кораблей и наземных сооружений на 10% от базового значения.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="111">
+			<title><![CDATA[Энергетические поля]]></title>
+			<text><![CDATA[Защитные энергетические поля это самый первый и рубеж обороны, позволяющий сдерживать атаку вообще без потерь. Каждый уровень технологии увеличивает энергетические щиты ваших кораблей и наземных сооружений на 10% от базового значения.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="113">
+			<title><![CDATA[Энергетика]]></title>
+			<text><![CDATA[Все наземные сооружения требуют электроэнергию для работы. Энергетика позволяет оптимизировать процесс выработки электричества, увеличивая производительность ваших электростанций и энергодронов на 10% за каждый уровень, а аннигиляционный реактор +100% за каждый уровень.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="113">
+			<title><![CDATA[Энергетика]]></title>
+			<text><![CDATA[Все наземные сооружения требуют электроэнергию для работы. Энергетика позволяет оптимизировать процесс выработки электричества, увеличивая производительность ваших электростанций и энергодронов на 10% за каждый уровень, а аннигиляционный реактор +100% за каждый уровень.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="114">
+			<title><![CDATA[Перемещение в подпространстве]]></title>
+			<text><![CDATA[Когда все способы достичь максимальной скорости были исчерпаны, был найден способ перемещения в подпространстве, который позволял огибать обычную геометрию вселенной. Исследование перемещения в подпространстве позволяет разрабатывать <b>подпространственный двигатель</b>.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="114">
+			<title><![CDATA[Перемещение в подпространстве]]></title>
+			<text><![CDATA[Когда все способы достичь максимальной скорости были исчерпаны, был найден способ перемещения в подпространстве, который позволял огибать обычную геометрию вселенной. Исследование перемещения в подпространстве позволяет разрабатывать <b>подпространственный двигатель</b>.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="115">
+			<title><![CDATA[Барионный двигатель]]></title>
+			<text><![CDATA[Барионный двигатель, работающий на принципе расщепления тяжелых протонов, был первым двигателем, который позволил человеку не просто выйти в космос, а надежно в нем закрепиться. За долгое время его использования, барионный двигатель стал самым надежным, экономным и безопасным способом перемещения в космосе. Каждый уровень дает прибавление в скорости на 10% от базового.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="115">
+			<title><![CDATA[Барионный двигатель]]></title>
+			<text><![CDATA[Барионный двигатель, работающий на принципе расщепления тяжелых протонов, был первым двигателем, который позволил человеку не просто выйти в космос, а надежно в нем закрепиться. За долгое время его использования, барионный двигатель стал самым надежным, экономным и безопасным способом перемещения в космосе. Каждый уровень дает прибавление в скорости на 10% от базового.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="117">
+			<title><![CDATA[Аннигиляционный двигатель]]></title>
+			<text><![CDATA[Аннигиляционный двигатель стал шагом к околосветовым скоростям, но в первую очередь им оборудуют небольшие и средние военные корабли. Каждый уровень дает прибавление в скорости на 20% от базового.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="117">
+			<title><![CDATA[Аннигиляционный двигатель]]></title>
+			<text><![CDATA[Аннигиляционный двигатель стал шагом к околосветовым скоростям, но в первую очередь им оборудуют небольшие и средние военные корабли. Каждый уровень дает прибавление в скорости на 20% от базового.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="118">
+			<title><![CDATA[Подпространственный двигатель]]></title>
+			<text><![CDATA[Подпространственный двигатель требует огромного расхода энергии, поэтому им оборудуются только военные крейсера и особо крупные корабли. Это самый мощный двигатель, позволяющий перемещаться даже таким огромным боевым станциям как Колосс. Каждый уровень дает прибавление в скорости на 30% от базового.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="118">
+			<title><![CDATA[Подпространственный двигатель]]></title>
+			<text><![CDATA[Подпространственный двигатель требует огромного расхода энергии, поэтому им оборудуются только военные крейсера и особо крупные корабли. Это самый мощный двигатель, позволяющий двигаться даже таким огромным боевым станциям как Колосс. Каждый уровень дает прибавление в скорости на 30% от базового.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="120">
+			<title><![CDATA[Боевые лазеры]]></title>
+			<text><![CDATA[Изучение технологии лазеров дало возможность использовать их не только в технологических, но и в военных целях. Лучевое оружие это основной тип космических орудий, где отсутствие гравитации и огромные расстояния сводят на нет обычные наземные орудия и небольшие ракеты. Изучение технологии дает доступ к постройке различных видов лазеров.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="120">
+			<title><![CDATA[Боевые лазеры]]></title>
+			<text><![CDATA[Изучение технологии лазеров дало возможность использовать их не только в технологических, но и в военных целях. Лучевое оружие это основной тип космических орудий, где отсутствие гравитации и огромные расстояния сводят на нет обычные наземные орудия и небольшие ракеты. Изучение технологии дает доступ к постройке различных видов лазеров.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="121">
+			<title><![CDATA[Фотонное оружие]]></title>
+			<text><![CDATA[В отличие от лазеров, использующих свет как волну, фотонное оружие использует вторую электромагнитную форму фотонов. Фотонное оружие обычно наносит не слишком большие повреждения, но оно незаменимо в обороне, ослабляя и выводя из строя атакующую технику противника. Фотонное оружие требуется для постройки фотонных пушек и некоторых кораблей.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="121">
+			<title><![CDATA[Фотонное оружие]]></title>
+			<text><![CDATA[В отличие от лазеров, использующих свет как волну, фотонное оружие использует вторую электромагнитную форму фотонов. Фотонное оружие обычно наносит не слишком большие повреждения, но оно незаменимо в обороне, ослабляя и выводя из строя атакующую технику противника. Фотонное оружие требуется для постройки фотонных пушек и некоторых кораблей.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="122">
+			<title><![CDATA[Лептонное оружие]]></title>
+			<text><![CDATA[Лептонное оружие можно назвать радиологическим оружием. Мощный поток частиц, состоящий из электронов и нейтрино, проникают сквозь самую мощную броню, вызывая огромные разрушения. Такое оружие незаменимо при атаке хорошо укрепленных планет и колоний или наоборот при защите от крупных кораблей.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="122">
+			<title><![CDATA[Лептонное оружие]]></title>
+			<text><![CDATA[Лептонное оружие можно назвать радиологическим оружием. Мощный поток частиц, состоящий из электронов и нейтрино, проникают сквозь самую мощную броню, вызывая огромные разрушения. Такое оружие незаменимо при атаке хорошо укрепленных планет и колоний или наоборот при защите от крупных кораблей.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="123">
+			<title><![CDATA[Unknown intergalactic_tech]]></title>
+			<text><![CDATA[эта технология пока недоступна в игре.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="123">
+			<title><![CDATA[Галанет]]></title>
+			<text><![CDATA[Такие виды коммуникаций как радио и спутниковая связь практически неприменимы в космосе из-за огромный расстояний. Тем не менее открытие галанета позволило установить надежную межпланетарную связь, доступную для всех, что способствовало развитию общества и науки. Каждый уровень галанета позволяет подключить к глобальной сети еще одну планету с научным центром, ускоряя время исследований.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="124">
+			<title><![CDATA[Тахионное сканирование]]></title>
+			<text><![CDATA[Технология тахионного сканирования позволяет исследовать дальний космос и подпространственную связь для навигации Звездных Врат.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="124">
+			<title><![CDATA[Тахионное сканирование]]></title>
+			<text><![CDATA[Технология тахионного сканирования позволяет исследовать дальний космос и подпространственную связь для навигации Звездных Врат.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="150">
+			<title><![CDATA[Освоение планет]]></title>
+			<text><![CDATA[Освоение новой планетной системы требует множества самых разных требований, начиная от агропромышленности и заканчивая социологией. Изучение этой технологии позволит вам создавать собственные колонии на незаселенных планетах. Уровень освоения планет показывает на максимальное количество планет, которыми вы можете управлять.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="150">
+			<title><![CDATA[Освоение планет]]></title>
+			<text><![CDATA[Освоение новой планетной системы требует множества самых разных требований, начиная от агропромышленности и заканчивая социологией. Изучение этой технологии позволит вам создавать собственные колонии на незаселенных планетах. Уровень освоения планет показывает на максимальное количество планет, которыми вы можете управлять.]]></text>
+		</ResearchItem>
+
+		<TechTreeItem id="199">
+			<title><![CDATA[Вибротрон]]></title>
+			<text><![CDATA[Теория о том, что весь мир состоит из спинов была придумана еще в докосмическое время. Но только сейчас на базе спинов было создано страшное оружие, которое способно этот мир уничтожить. На текущий момент практически не было придумано никакой защиты от вибротрона. Но технологический процесс требует огромных затрат на создание и использования такого оружия, поэтому его невозможно установить на космический корабль обычного размера.]]></text>
+		</TechTreeItem>
+		<ResearchItem id="199">
+			<title><![CDATA[Вибротрон]]></title>
+			<text><![CDATA[Теория о том, что весь мир состоит из спинов была придумана еще в докосмическое время. Но только сейчас на базе спинов было создано страшное оружие, которое способно этот мир уничтожить. На текущий момент практически не было придумано никакой защиты от вибротрона. Но технологический процесс требует огромных затрат на создание и использования такого оружия, поэтому его невозможно установить на космический корабль обычного размера.]]></text>
+		</ResearchItem>
+
+		<Resourse_Page>
+			<title><![CDATA[Игровые ресурсы]]></title>
+			<text><![CDATA[В игре используется три вида основных ресурсов и два второстепенных:
+Титан	- наиболее часто используемый ресурс при постройке и исследованиях. Добыча происходит в титановой шахте.
+Кремний	- дорогой минерал, активно используемый в исследованиях и при создании технологических материалов. Добыча кремния происходит в кремниевой шахте. Кремний добывается медленнее, чем титан.
+Антиматерия	- основной вид топлива во вселенной, все корабли требуют антиматерию для полетов. Антиматерия также требуется для исследований и строительства вооружений и судов.
+Электроэнергия вырабатывается на электростанции, в реакторе или энергодронами. Она не может быть перевезена или накоплена, она вырабатывается и сразу расходуется для работы шахт. Если электроэнергии недостаточно, производительность шахт будет ухудшаться вплоть до полной остановки. Также определенный уровень электроэнергии требуется для некоторых исследований и построек.
+За кредиты можно приобрести различные ресурсы на бирже, приобрести полезные улучшения на закладке "VIP", а также для улучшений вашей планеты. Чтобы купить галактические кредиты, нажмите на иконке денег в шапке игры.]]></text>
+		</Resourse_Page>
+
+    <Transport_Score>
+      <title><![CDATA[Очки транспортировки]]></title>
+      <text><![CDATA[Вы можете свободно перемещать основные ресурсы (титан, кремний и антиматерию) между своими колониями при помощи флота с заданием "транспортировка". Транспортировка доступна также внутри альянса, но с ограничением - вы можете только ОБМЕНИВАТЬСЯ ресурсами. Отправляя своим союзникам ресурсы, ваши Очки Транспортировки уменьшаются, получая от ваших союзников ресурсы, ваши очки транспортировки увеличиваются. Вы не сможете отправить, если очки танспортировки меньше -50.000 и не сможете получить, если они больше +50.000. Установлен жесткий курс, по которому 1 АМ = 2 кремния = 3 титана.]]></text>
+    </Transport_Score>
+      
+    <Building_page>
+      <title><![CDATA[СТРОИТЕЛЬСТВО]]></title>
+      <text><![CDATA[Вы можете строить, модернизировать здания повышая их уровень. Для строительства здания или модернизации требуется 1 место на каждый уровень. Некоторые сооружения также потребляют электроэнергию. Грамотно спланируйте застройку на будущее. Робофабрика и Нанофабрика ускоряют ход строительства.]]></text>
+    </Building_page>
+    
+    
+
+		<Exchange_Sell>
+			<title><![CDATA[Продажа на бирже]]></title>
+			<text><![CDATA[Вы можете выставить ваши ресурсы на бирже для продажи за кредиты.
+Не забывайте, что к вашей цене будет добавлен административный налог (он отображается в окне создания заявки на продажу).
+Выставленные на биржу ресурсы будут забраны с планеты в тот момент, когда их кто-то купит. Если на планете будет недостаточно ресурсов, заявка автоматически аннулируется.
+Вы можете отменить вашу заявку, нажав на кнопку "Отмена".]]></text>
+		</Exchange_Sell>
+
+		<Options_Notification_Main>
+			<title><![CDATA[Уведомления об атаке]]></title>
+			<text><![CDATA[Вы можете оплатить услугу отправки уведомлений об атаке на ваши планеты. Если услуга оплачена и включена, вам будут приходить уведомления как только кто-то отправит флот с заданием "Атака" на вашу планету (обязательно прочитайте справку об уведомлениях на телефон и на емайл).
+ВНИМАНИЕ! Уведомления не будут приходить чаще, чем 1 раз в час, поэтому если после первой атаки на вас вылетят другие флоты, то в течение 1 часа о других атаках уведомление смс приходить НЕ будет. Это сделано для предотвращения спама.]]></text>
+		</Options_Notification_Main>
+		<Options_Notification_Email>
+			<title><![CDATA[Уведомление об атаке на емайл]]></title>
+			<text><![CDATA[Здесь нужно вести емайл, на который будут приходить уведомления по почте.
+Если вы хотите отключить уведомления на электронную почту, просто очистите поле вашего электронного адреса.]]></text>
+		</Options_Notification_Email>
+		<Options_Notification_Phone>
+			<title><![CDATA[СМС-Уведомления]]></title>
+			<text><![CDATA[СМС-уведомления отправляются при помощи услуги сайта ВКонтакте, это означает, что ваш телефон должен быть зарегистрирован на вашей страничке Контакта и активирован соответствующим образом. Если при нажатии "активация" вы попадаете на вашу страничку ВКонтакте, значит ваш телефон уже активирован.
+Если тестовое смс-сообщение не отправляется (и не снимается со счета), это означает, что ваш телефон некорректно зарегистрирован Вконтакте, и вам нужно связаться с техподдержкой Контакта, а не с разработчиками Галактики.]]></text>
+		</Options_Notification_Phone>
+		<Options_Notification_SMS>
+			<title><![CDATA[Покупка СМС]]></title>
+			<text><![CDATA[Мы не несем никакой ответственности за то, что СМС может быть вам недоставлена. Данный сервис НЕ гарантирует вам полной безопасности ваших планет и флотов.
+Приобретая услуги уведомления по СМС вы полностью соглашаетесь с этим утверждением. Если вы первый раз покупаете эту услугу, обязательно проверьте получение смс-уведомления при помощи тестового сообщения.
+Если смс сообщение не приходит, это означает что ваш телефон неправильно внесен или активирован на сайте ВКонтакте и вам нужно решить эту проблему с техподдержкой сайта ВКонтакте. Если тестовое сообщение все равно не приходит на телефон, можете связаться с нами на нашем форуме, сообщив начальные цифры вашего номера и имя оператора мобильной связи, мы попробуем решить эту проблему.]]></text>
+		</Options_Notification_SMS>
+		<Options_Password>
+			<title><![CDATA[Пароль клиента]]></title>
+			<text><![CDATA[Если ваш акаунт ВКонтакте под угрозой, если вы не уверены, что только вы имеете доступ к вашему компьютеру, мы предусмотрели дополнительный пароль, который действует только в нашей игре. Даже зайдя в игру через сайт ВКонтакте вы не сможете зайти ВГалактику без ввода пароля, если вы его указали. Мы настойчиво рекомендуем пользоваться дополнительным паролем.]]></text>
+		</Options_Password>
+		<Options_Vacation>
+			<title><![CDATA[Режим Отпуска]]></title>
+			<text><![CDATA[Режим отпуска нужен, чтобы дать вам защиту на то время, пока вы вынужденно не можете находиться в игре.
+В режиме отпуска на вас не смогут отправлять флоты с заданием "Атака" и "Разведка", но могут отправлять флоты с другими заданиями, например "Переработка".
+<b>ВНИМАНИЕ!</b> Режим отпуска не спасет вас от нападения, если противник уже летит на вашу планету! Поэтому перед уходом в отпуск обязательно проверьте, что на вас никто не летит.
+Ограничения:
+Вы не можете уйти в отпуск, если у вас есть ваши флоты в полете или у вас идет исследование или на одной из ваших планет идет строительство. Если вас не пускает в отпуск, проверьте что ни на одной из ваших колоний ничего не строится.
+Из отпуска нельзя выйти раньше, чем через 48 часов после включения режима (но вы можете выйти досрочно за кредиты).
+Во время отпуска ваши шахты не работают.
+И самое главное - Отпуск НЕ ВЕЧЕН, вы будете выброшены из отпуска по истечении 3 месяцев!!!]]></text>
+		</Options_Vacation>
+
+		<Stats_Page>
+			<title><![CDATA[Статистика]]></title>
+			<text><![CDATA[Статистика обновляется раз в сутки, отображая на сколько мест вы поднялись или опустились в рейтинге относительно других игроков.
+<b>Созидатель</b> - эта графа отображает сколько ресурсов вы потратили на строительство зданий на всех ваших планетах.
+<b>Покоритель</b> покажет количество ресурсов, потраченное на создание вашего флота. Если вы теряете корабли, вы теряете очки покорителя.
+<b>Защитник</b> это очки ваших наземных оборонительных укреплений, включая энергетические купола.
+<b>Изобретатель</b> - все ваши исследования. Иногда можно изучить не очень нужные для вас исследования, но зато подняться в рейтинге.
+<b>Общий рейтинг</b> это сумма всех ваших очков. Не забывайте, что потраченная антиматерия не учитывается при подсчете очков.]]></text>
+		</Stats_Page>
+
+		<TechTreeItem id="202">
+			<title><![CDATA[Шатл]]></title>
+			<text><![CDATA["Гражданская" версия легкого истребителя была немного увеличена в размерах. Вместо боевого оснащения - вакуумный трюм. Органы управления и навигации максимально унифицированы с боевыми моделями. Имеет на борту легкое вооружение, предназначенное скорее для уничтожения метеоритов, чем для ведения боя. Так как шаттл был спроектирован на базе боевого истребителя, то на него оказалось возможным установить аннигиляционный двигатель, после исследования 5-го уровня аннигиляционного двигателя, все шаттлы комплектуются им.
+Базовые параметры без учета технологий:
+Броня: 400
+Щиты : 10
+Атака: 5
+Скорострел: разведзонд, энергодрон
+Грузоподъемность: 5000
+Тип двигателя   : Барионный/Аннигиляционный
+Базовая скорость: 5000 / 10000
+Расход топлива  : 20/40]]></text>
+		</TechTreeItem>
+		<WeaponItem id="202">
+			<title><![CDATA[Шатл]]></title>
+			<text><![CDATA["Гражданская" версия легкого истребителя была немного увеличена в размерах. Вместо боевого оснащения - вакуумный трюм. Органы управления и навигации максимально унифицированы с боевыми моделями. Имеет на бору легкое вооружение, предназначенное скорее для уничтожения метеоритов, чем для ведения боя. Так как шаттл был спроектирован на базе боевого истребителя, то на него оказалось возможным установить аннигиляционный двигатель, после исследования 5-го уровня аннигиляционного двигателя, все шаттлы комплектуются им.
+Базовые параметры без учета технологий:
+Броня: 400
+Щиты : 10
+Атака: 5
+Скорострел: разведзонд, энергодрон
+Грузоподъемность: 5000
+Тип двигателя   : Барионный/Аннигиляционный
+Базовая скорость: 5000 / 10000
+Расход топлива  : 10/20]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="203">
+			<title><![CDATA[Транспорт]]></title>
+			<text><![CDATA[Разработанный "с нуля" транспортный корабль межпланетного и межсистемного сообщения. Оснащен стандартными и надежными барионными двигателями. Грузовые отсеки секционной компоновки в 5 раз превышают по грузоподъёмности аналоги используемые на шаттлах. Слабо вооружен. Основное предназначение - перевозка грузов.
+Базовые параметры без учета технологий:
+Броня: 1200
+Щиты : 25
+Атака: 5
+Скорострел: разведзонд, энергодрон
+Грузоподъемность: 25000
+Тип двигателя   : Барионный
+Базовая скорость: 7500	
+Расход топлива  : 50]]></text>
+		</TechTreeItem>
+		<WeaponItem id="203">
+			<title><![CDATA[Транспорт]]></title>
+			<text><![CDATA[Разработанный "с нуля" транспортный корабль межпланетного и межсистемного сообщения. Оснащен стандартными и надежными барионными двигателями. Грузовые отсеки секционной компоновки в 5 раз превышают по грузоподъёмности аналоги используемые на шаттлах. Слабо вооружен. Основное предназначение - перевозка грузов.
+Базовые параметры без учета технологий:
+Броня: 1200
+Щиты : 25
+Атака: 5
+Скорострел: разведзонд, энергодрон
+Грузоподъемность: 25000
+Тип двигателя   : Барионный
+Базовая скорость: 7500	
+Расход топлива  : 50]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="204">
+			<title><![CDATA[Истребитель]]></title>
+			<text><![CDATA[Малый боевой маневренный корабль. При проектировании кораблей данного класса приоритетом ставилась маневренность, способность вести активный бой в верхних слоях атмосферы и безвоздушном пространстве. На борту имеет два лазера малой мощности.
+Базовые параметры без учета технологий:
+Броня: 400
+Щиты : 10
+Атака: 50
+Скорострел: шатл, разведзонд, энергодрон
+Грузоподъемность: 50
+Тип двигателя   : Барионный
+Базовая скорость: 12500	
+Расход топлива  : 20]]></text>
+		</TechTreeItem>
+		<WeaponItem id="204">
+			<title><![CDATA[Истребитель]]></title>
+			<text><![CDATA[Малый боевой маневренный корабль. При проектировании кораблей данного класса приоритетом ставилась маневренность, способность вести активный бой в верхних слоях атмосферы и безвоздушном пространстве. На борту имеет два лазера малой мощности.
+Базовые параметры без учета технологий:
+Броня: 400
+Щиты : 10
+Атака: 50
+Скорострел: шатл, разведзонд, энергодрон
+Грузоподъемность: 50
+Тип двигателя   : Барионный
+Базовая скорость: 12500	
+Расход топлива  : 20]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="205">
+			<title><![CDATA[Штурмовик]]></title>
+			<text><![CDATA[Более поздняя модификация кораблей класса "Истребитель". Штурмовик оснащен более мощным вооружением и броней, а также аннигиляционными двигателями, что позволяет оставаться маневренным и быстрым кораблем. После изобретения аннигиляционного двигателя 7-го поколения скорость значительно выросла. На борту имеется четыре лазера средней мощности.
+Базовые параметры без учета технологий:
+Броня: 1000
+Щиты : 25
+Атака: 150
+Скорострел: шатл, разведзонд, энергодрон
+Грузоподъемность: 100
+Тип двигателя   : Аннигиляционный
+Базовая скорость: 10000	/ 15000
+Расход топлива  : 75]]></text>
+		</TechTreeItem>
+		<WeaponItem id="205">
+			<title><![CDATA[Штурмовик]]></title>
+			<text><![CDATA[Более поздняя модификация кораблей класса "Истребитель". Штурмовик оснащен более мощным вооружением и броней, а также аннигиляционными двигателями, что позволяет оставаться маневренным и быстрым кораблем. После изобретения аннигиляционного двигателя 7-го поколения скорость значительно выросла. На борту имеется четыре лазера средней мощности.
+Базовые параметры без учета технологий:
+Броня: 1000
+Щиты : 25
+Атака: 150
+Скорострел: шатл, разведзонд, энергодрон
+Грузоподъемность: 100
+Тип двигателя   : Аннигиляционный
+Базовая скорость: 10000	/ 15000
+Расход топлива  : 75]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="206">
+			<title><![CDATA[Корвет]]></title>
+			<text><![CDATA[Успехи в производстве маневренных и быстрых кораблей привели к созданию Корвета - самого быстрого корабля, который способен преодолевать огромные расстояния значительно быстрее не только истребителя но и вообще любых других кораблей. Вдобавок корвет это корабль средних размеров, на котором конструкторам удалось разместить действительно мощное вооружение. Корветы исключительно хорошо показывают себя в сражении против истребителей и обычных "медленных" ракетах наземных ракетных блоков.
+Базовые параметры без учета технологий:
+Броня: 2700
+Щиты : 50
+Атака: 400
+Скорострел: истребитель, разведзонд, энергодрон, ракетный блок
+Грузоподъемность: 800
+Тип двигателя   : Аннигиляционный
+Базовая скорость: 15000	
+Расход топлива  : 300]]></text>
+		</TechTreeItem>
+		<WeaponItem id="206">
+			<title><![CDATA[Корвет]]></title>
+			<text><![CDATA[Успехи в производстве маневренных и быстрых кораблей привели к созданию Корвета - самого быстрого корабля, который способен преодолевать огромные расстояния значительно быстрее не только истребителя но и вообще любых других кораблей. Вдобавок корвет это корабль средних размеров, на котором конструкторам удалось разместить действительно мощное вооружение. Корветы исключительно хорошо показывают себя в сражении против истребителей и обычных "медленных" ракетах наземных ракетных блоков.
+Базовые параметры без учета технологий:
+Броня: 2700
+Щиты : 50
+Атака: 400
+Скорострел: истребитель, разведзонд, энергодрон, ракетный блок
+Грузоподъемность: 800
+Тип двигателя   : Аннигиляционный
+Базовая скорость: 15000	
+Расход топлива  : 300]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="207">
+			<title><![CDATA[Фрегат]]></title>
+			<text><![CDATA[Фрегат это первый корабль тяжелого класса, использующий подпространственный двигатель. Фрегаты составляют основу космического флота. Быстрые, тяжело вооруженные, хорошо защищенные. Недаром во флоте их прозвали "королями космоса". Флотилия фрегатов - это очень грозный аргумент в споре с соседями за ресурсы. Фрегаты также могут перевозить значительный объем ресурсов.
+Базовые параметры без учета технологий:
+Броня: 6000
+Щиты : 200
+Атака: 1000
+Скорострел: разведзонд, энергодрон, ракетный блок
+Грузоподъемность: 1500
+Тип двигателя   : Подпространственный
+Базовая скорость: 10000	
+Расход топлива  : 500]]></text>
+		</TechTreeItem>
+		<WeaponItem id="207">
+			<title><![CDATA[Фрегат]]></title>
+			<text><![CDATA[Фрегат это первый корабль тяжелого класса, использующий подпространственный двигатель. Фрегаты составляют основу космического флота. Быстрые, тяжело вооруженные, хорошо защищенные. Недаром во флоте их прозвали "королями космоса". Флотилия фрегатов - это очень грозный аргумент в споре с соседями за ресурсы. Фрегаты также могут перевозить значительный объем ресурсов.
+Базовые параметры без учета технологий:
+Броня: 6000
+Щиты : 200
+Атака: 1000
+Скорострел: разведзонд, энергодрон, ракетный блок
+Грузоподъемность: 1500
+Тип двигателя   : Подпространственный
+Базовая скорость: 10000	
+Расход топлива  : 500]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="208">
+			<title><![CDATA[Первопроходец]]></title>
+			<text><![CDATA[Первопроходец это одноразовый корабль, спроектированный для создания колоний. Практически каждый сантиметр корабля используется поселенцами для основания новой планеты.
+Базовые параметры без учета технологий:
+Броня: 3000
+Щиты : 100
+Атака: 50
+Скорострел: разведзонд, энергодрон
+Грузоподъемность: 7500
+Тип двигателя   : Аннигиляционный
+Базовая скорость: 2500	
+Расход топлива  : 1000]]></text>
+		</TechTreeItem>
+		<WeaponItem id="208">
+			<title><![CDATA[Первопроходец]]></title>
+			<text><![CDATA[Первопроходец это одноразовый корабль, спроектированный для создания колоний. Практически каждый сантиметр корабля используется поселенцами для основания новой планеты.
+Базовые параметры без учета технологий:
+Броня: 3000
+Щиты : 100
+Атака: 50
+Скорострел: разведзонд, энергодрон
+Грузоподъемность: 7500
+Тип двигателя   : Аннигиляционный
+Базовая скорость: 2500	
+Расход топлива  : 1000]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="209">
+			<title><![CDATA[Коллектор]]></title>
+			<text><![CDATA[Грузовой корабль для сбора космических обломков. Оборудованный магнитными захватами и специальным оборудованием для сбора и переработки обломков в открытом космосе. И мельчайшие пылинки и крупные обломки могут быть быстро переработаны в готовый к употреблению ресурс.
+Базовые параметры без учета технологий:
+Броня: 1600
+Щиты : 10
+Атака: 1
+Скорострел: разведзонд, энергодрон
+Грузоподъемность: 20000
+Тип двигателя   : Барионный
+Базовая скорость: 2000	
+Расход топлива  : 300]]></text>
+		</TechTreeItem>
+		<WeaponItem id="209">
+			<title><![CDATA[Коллектор]]></title>
+			<text><![CDATA[Грузовой корабль для сбора космических обломков. Оборудованный магнитными захватами и специальным оборудованием для сбора и переработки обломков в открытом космосе. И мельчайшие пылинки и крупные обломки могут быть быстро переработаны в готовый к употреблению ресурс.
+Базовые параметры без учета технологий:
+Броня: 1600
+Щиты : 10
+Атака: 1
+Скорострел: разведзонд, энергодрон
+Грузоподъемность: 20000
+Тип двигателя   : Барионный
+Базовая скорость: 2000	
+Расход топлива  : 300]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="210">
+			<title><![CDATA[Разведзонд]]></title>
+			<text><![CDATA[Автоматический беспилотный зонд способен развивать огромную скорость под нагрузками, которые неспособен перенести живой пилот. Разведзонд способен исследовать планету, определять на ней активность и автоматически отправлять отчет. Большинство разведзондов гибнут при выполнении своей миссии.
+Базовые параметры без учета технологий:
+Броня: 100
+Щиты : -
+Атака: -
+Скорострел: нет
+Грузоподъемность: 5
+Тип двигателя   : Барионный
+Базовая скорость: 100000000
+Расход топлива  : 1]]></text>
+		</TechTreeItem>
+		<WeaponItem id="210">
+			<title><![CDATA[Разведзонд]]></title>
+			<text><![CDATA[Автоматический беспилотный зонд способен развивать огромную скорость под нагрузками, которые неспособен перенести живой пилот. Разведзонд способен исследовать планету, определять на ней активность и автоматически отправлять отчет. Большинство разведзондов гибнут при выполнении своей миссии.
+Базовые параметры без учета технологий:
+Броня: 100
+Щиты : -
+Атака: -
+Скорострел: нет
+Грузоподъемность: 5
+Тип двигателя   : Барионный
+Базовая скорость: 100000000
+Расход топлива  : 1]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="211">
+			<title><![CDATA[Бомбардир]]></title>
+			<text><![CDATA[Тяжелые лазеры фрегатов и корветов оказались неэффективными против грамотно построенной наземной обороны, и военные поставили задачу создать корабль, который способен подавить защиту. Бомбардир обладает мощным вооружением против кораблей и просто невероятной огневой мощью по наземным оборонительным сооружениям. Бомбардир оборудуется подпространственным двигателем после исследования 8 уровня.
+Базовые параметры без учета технологий:
+Броня: 7500
+Щиты : 500
+Атака: 1000
+Скорострел: разведзонд, энергодрон, ракетный блок, инфракрасный лазер, ультрафиолетовый лазер, фотонная пушка
+Грузоподъемность: 500
+Тип двигателя   : Аннигиляцонный/Подпространственный
+Базовая скорость: 4000/5000
+Расход топлива  : 1000]]></text>
+		</TechTreeItem>
+		<WeaponItem id="211">
+			<title><![CDATA[Бомбардир]]></title>
+			<text><![CDATA[Тяжелые лазеры фрегатов и корветов оказались неэффективными против грамотно построенной наземной обороны, и военные поставили задачу создать корабль, который способен подавить защиту. Бомбардир обладает мощным вооружением против кораблей и просто невероятной огневой мощью по наземным оборонительным сооружениям. Бомбардир оборудуется подпространственным двигателем после исследования 8 уровня.
+Базовые параметры без учета технологий:
+Броня: 7500
+Щиты : 500
+Атака: 1000
+Скорострел: разведзонд, энергодрон, ракетный блок, инфракрасный лазер, ультрафиолетовый лазер, фотонная пушка
+Грузоподъемность: 500
+Тип двигателя   : Аннигиляцонный/Подпространственный
+Базовая скорость: 4000/5000
+Расход топлива  : 1000]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="212">
+			<title><![CDATA[Энергодрон]]></title>
+			<text><![CDATA[Беспроводная передача электроэнергии перевернуло представление о возможностях электричества. Улавливая солнечную энергию, энергодроны конвертируют и передают готовое электричество на поверхность планеты, не занимая места и не разрушая экологию, в тоже время представляя собой практически бесконечный по мощности источник электричества.
+Базовые параметры без учета технологий:
+Броня: 200
+Щиты : 10
+Атака: 1
+Скорострел: нет
+Тип двигателя: отсутствует
+]]></text>
+		</TechTreeItem>
+		<WeaponItem id="212">
+			<title><![CDATA[Энергодрон]]></title>
+			<text><![CDATA[Беспроводная передача электроэнергии перевернуло представление о возможностях электричества. Улавливая солнечную энергию, энергодроны конвертируют и передают готовое электричество на поверхность планеты, не занимая места и не разрушая экологию, в тоже время представляя собой практически бесконечный по мощности источник электричества.
+Базовые параметры без учета технологий:
+Броня: 200
+Щиты : 10
+Атака: 1
+Скорострел: нет
+Тип двигателя: отсутствует
+]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="213">
+			<title><![CDATA[Разрушитель]]></title>
+			<text><![CDATA[После удачной разработки фрегата, был разработан еще более огромный, вместительный и мощный корабль. Несмотря на небольшую скорость, разрушитель почти вдвое превосходит фрегат по всем параметрам.
+Базовые параметры без учета технологий:
+Броня: 11000
+Щиты : 500
+Атака: 2000
+Скорострел: разведзонд, энергодрон, галактион, инфракрасный лазер
+Грузоподъемность: 2000
+Тип двигателя   : Подпространственный
+Базовая скорость: 5000	
+Расход топлива  : 1000]]></text>
+		</TechTreeItem>
+		<WeaponItem id="213">
+			<title><![CDATA[Разрушитель]]></title>
+			<text><![CDATA[После удачной разработки фрегата, был разработан еще более огромный, вместительный и мощный корабль. Несмотря на небольшую скорость, разрушитель почти вдвое превосходит фрегат по всем параметрам.
+Базовые параметры без учета технологий:
+Броня: 11000
+Щиты : 500
+Атака: 2000
+Скорострел: разведзонд, энергодрон, галактион, инфракрасный лазер
+Грузоподъемность: 2000
+Тип двигателя   : Подпространственный
+Базовая скорость: 5000	
+Расход топлива  : 1000]]></text>
+		</WeaponItem>
+
+
+		<TechTreeItem id="214">
+			<title><![CDATA[Колосс]]></title>
+			<text><![CDATA[Создание подвижной космической станции было мечтой многих военных еще со времен докосмической эры. Подпространственный двигатель наконец дал возможность передвигать даже такие огромные объекты, как Колосс. Огромные размеры боевой станции позволили установить самое огромное оружие в космосе - вибротрон, способный с одного выстрела уничтожить любой корабль. Не связанный размерами, Колосс обладает огромной грузоподъемностью и оснащен всеми видами защиты и атаки, которые можно было на него установить. Даже в одиночку колосс может одержать верх над сотнями и тысячами кораблей противника.
+Базовые параметры без учета технологий:
+Броня: 900000
+Щиты : 50000
+Атака: 200000
+Скорострел: шатл, транспорт, истребитель, штурмовик, корвет, фрегат, первопроходец, коллектор, разведзонд, бомбардир, энергодрон, разрушитель, галактион, ракетный блок, инфракрасный лазер, ультрафиолетовый лазер, гравитонная пушка, фотонная пушка
+Грузоподъемность: 1000000
+Тип двигателя   : Подпространственный
+Базовая скорость: 100	
+Расход топлива  : 1]]></text>
+		</TechTreeItem>
+		<WeaponItem id="214">
+			<title><![CDATA[Колосс]]></title>
+			<text><![CDATA[Создание подвижной космической станции было мечтой многих военных еще со времен докосмической эры. Подпространственный двигатель наконец дал возможность передвигать даже такие огромные объекты, как Колосс. Огромные размеры боевой станции позволили установить самое огромное оружие в космосе - вибротрон, способный с одного выстрела уничтожить любой корабль. Не связанный размерами, Колосс обладает огромной грузоподъемностью и оснащен всеми видами защиты и атаки, которые можно было на него установить. Даже в одиночку колосс может одержать верх над сотнями и тысячами кораблей противника.
+Базовые параметры без учета технологий:
+Броня: 900000
+Щиты : 50000
+Атака: 200000
+Скорострел: шатл, транспорт, истребитель, штурмовик, корвет, фрегат, первопроходец, коллектор, разведзонд, бомбардир, энергодрон, разрушитель, галактион, ракетный блок, инфракрасный лазер, ультрафиолетовый лазер, гравитонная пушка, фотонная пушка
+Грузоподъемность: 1000000
+Тип двигателя   : Подпространственный
+Базовая скорость: 100	
+Расход топлива  : 1]]></text>
+		</WeaponItem>
+
+			<TechTreeItem id="215">
+			<title><![CDATA[Галактион]]></title>
+			<text><![CDATA[Удачная разработка бомбардира толкнула военных на мысль изобрести похожий корабль, но специализированный на уничтожении вражеского флота. Галактион обладает не просто высокой огневой мощью и повышенной защитой. Это отлично оснащенный технологическими разработками корабль, способный атаковать сразу множество кораблей, и даже в небольшом количестве галактионы могут одержать верх над превосходящим по количеству кораблей противником.
+Базовые параметры без учета технологий:
+Броня: 7000
+Щиты : 400
+Атака: 700
+Скорострел: шатл, транспорт, штурмовик, корвет, фрегат, разведзонд, энергодрон
+Грузоподъемность: 750
+Тип двигателя   : Подпространственный
+Базовая скорость: 10000	
+Расход топлива  : 250]]></text>
+		</TechTreeItem>
+		<WeaponItem id="215">
+			<title><![CDATA[Галактион]]></title>
+			<text><![CDATA[Удачная разработка бомбардира толкнула военных на мысль изобрести похожий корабль, но специализированный на уничтожении вражеского флота. Галактион обладает не просто высокой огневой мощью и повышенной защитой. Это отлично оснащенный технологическими разработками корабль, способный атаковать сразу множество кораблей, и даже в небольшом количестве галактионы могут одержать верх над превосходящим по количеству кораблей противником.
+Базовые параметры без учета технологий:
+Броня: 7000
+Щиты : 400
+Атака: 700
+Скорострел: шатл, транспорт, штурмовик, корвет, фрегат, разведзонд, энергодрон
+Грузоподъемность: 750
+Тип двигателя   : Подпространственный
+Базовая скорость: 10000	
+Расход топлива  : 250]]></text>
+		</WeaponItem>
+		
+		<TechTreeItem id="216">
+			<title><![CDATA[Армагеддон]]></title>
+			<text><![CDATA[Данный корабль пока недоступен в игре]]></text>
+		</TechTreeItem>
+		<WeaponItem id="216">
+			<title><![CDATA[Армагеддон]]></title>
+			<text><![CDATA[Данный корабль пока недоступен в игре]]></text>
+		</WeaponItem>
+
+	
+
+		<TechTreeItem id="401">
+			<title><![CDATA[Ракетный блок]]></title>
+			<text><![CDATA[Стандартная наземная ракетная установка. Основа наземной обороны.
+Базовые параметры без учета технологий:
+Броня: 200
+Щиты : 20
+Атака: 80]]></text>
+		</TechTreeItem>
+		<!--<WeaponItem id="401">
+			<title><![CDATA[Армагеддон]]></title>
+			<text><![CDATA[Данный корабль пока недоступен в игре]]></text>
+		</WeaponItem>-->
+		<WeaponItem id="401">
+			<title><![CDATA[Ракетный блок]]></title>
+			<text><![CDATA[Стандартная наземная ракетная установка. Основа наземной обороны.
+Базовые параметры без учета технологий:
+Броня: 200
+Щиты : 20
+Атака: 80]]></text>
+		</WeaponItem>
+
+
+		<TechTreeItem id="402">
+			<title><![CDATA[Инфракрасный лазер]]></title>
+			<text><![CDATA[Стандартная наземная лазерная установка. Лазерное оружие отлично зарекомендовало себя в космосе, где сила отдачи и расстояния крайне негативно влияли на эффективность ракетного оружия. Но на поверхности планеты лазер сохраняет все свои огневые качества.
+Базовые параметры без учета технологий:
+Броня: 200
+Щиты : 25
+Атака: 100]]></text>
+		</TechTreeItem>
+		<WeaponItem id="402">
+			<title><![CDATA[Инфракрасный лазер]]></title>
+			<text><![CDATA[Стандартная наземная лазерная установка. Лазерное оружие отлично зарекомендовало себя в космосе, где сила отдачи и расстояния крайне негативно влияли на эффективность ракетного оружия. Но на поверхности планеты лазер сохраняет все свои огневые качества.
+Базовые параметры без учета технологий:
+Броня: 200
+Щиты : 25
+Атака: 100]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="403">
+			<title><![CDATA[Ультрафиолетовый лазер]]></title>
+			<text><![CDATA[Улучшенная наземная лазерная установка. Экспериментируя с длиной волны, было обнаружено что в ультрафиолетовом диапазоне можно сконцентрировать больше огневой мощи.
+Базовые параметры без учета технологий:
+Броня: 800
+Щиты : 100
+Атака: 250]]></text>
+		</TechTreeItem>
+		<WeaponItem id="403">
+			<title><![CDATA[Ультрафиолетовый лазер]]></title>
+			<text><![CDATA[Улучшенная наземная лазерная установка. Экспериментируя с длиной волны, было обнаружено что в ультрафиолетовом диапазоне можно сконцентрировать больше огневой мощи.
+Базовые параметры без учета технологий:
+Броня: 800
+Щиты : 100
+Атака: 250]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="404">
+			<title><![CDATA[Гравитонное орудие]]></title>
+			<text><![CDATA[Используя принцип искусственной гравитации были разработаны мощные наземные установки для использования в качестве оборонительных излучателей. Гравитонные пушки хорошо справляются с подавлением энергетических щитов самых крупных кораблей.
+Базовые параметры без учета технологий:
+Броня: 3500
+Щиты : 200
+Атака: 1100]]></text>
+		</TechTreeItem>
+		<WeaponItem id="404">
+			<title><![CDATA[Гравитонное орудие]]></title>
+			<text><![CDATA[Используя принцип искусственной гравитации были разработаны мощные наземные установки для использования в качестве оборонительных излучателей. Гравитонные пушки хорошо справляются с подавлением энергетических щитов самых крупных кораблей.
+Базовые параметры без учета технологий:
+Броня: 3500
+Щиты : 200
+Атака: 1100]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="405">
+			<title><![CDATA[Фотонная пушка]]></title>
+			<text><![CDATA[Фотонное излучение наносит меньше ущерба чем усовершенствованные лазеры, но зато формирует мощное энергетическое поле, которое предохраняет установку от слабых кораблей противника.
+Базовые параметры без учета технологий:
+Броня: 800
+Щиты : 500
+Атака: 150]]></text>
+		</TechTreeItem>
+		<WeaponItem id="405">
+			<title><![CDATA[Фотонная пушка]]></title>
+			<text><![CDATA[Фотонное излучение наносит меньше ущерба чем усовершенствованные лазеры, но зато формирует мощное энергетическое поле, которое предохраняет установку от слабых кораблей противника.
+Базовые параметры без учета технологий:
+Броня: 800
+Щиты : 500
+Атака: 150]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="406">
+			<title><![CDATA[Лептонная пушка]]></title>
+			<text><![CDATA[Излучение тяжелыми тау-лептонами было новым открытием военных технологий. Дорогая лептонная установка полностью оправдывает средства потраченные на ее строительство. Залп лептонной пушки способен перенести далеко не каждый корабль, лептонные пушки были самым мощным видом вооружения до открытия вибротрона.
+Базовые параметры без учета технологий:
+Броня: 10000
+Щиты : 300
+Атака: 3000]]></text>
+		</TechTreeItem>
+		<WeaponItem id="406">
+			<title><![CDATA[Лептонная пушка]]></title>
+			<text><![CDATA[Излучение тяжелыми тау-лептонами было новым открытием военных технологий. Дорогая лептонная установка полностью оправдывает средства потраченные на ее строительство. Залп лептонной пушки способен перенести далеко не каждый корабль, лептонные пушки были самым мощным видом вооружения до открытия вибротрона.
+Базовые параметры без учета технологий:
+Броня: 10000
+Щиты : 300
+Атака: 3000]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="407">
+			<title><![CDATA[Малый энергокупол]]></title>
+			<text><![CDATA[Малый энергетический купол окутывает всю планету, принимая на себя все удары вражеского флота. Энергетический купол не мешает стрельбе собственных оборонительных сооружений и флота.
+Базовые параметры без учета технологий:
+Броня: 2000
+Щиты : 2000
+Атака: 1]]></text>
+		</TechTreeItem>
+		<WeaponItem id="407">
+			<title><![CDATA[Малый энергокупол]]></title>
+			<text><![CDATA[Малый энергетический купол окутывает всю планету, принимая на себя все удары вражеского флота. Энергетический купол не мешает стрельбе собственных оборонительных сооружений и флота.
+Базовые параметры без учета технологий:
+Броня: 2000
+Щиты : 2000
+Атака: 1]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="408">
+			<title><![CDATA[Большой энергокупол]]></title>
+			<text><![CDATA[Большой энергетический купол надстраивается над малым и окутывает всю планету на более высоком уровне стратосферы. Принимая на себя все удары вражеского флота, энергетический купол не мешает стрельбе собственных оборонительных сооружений и флота.
+Базовые параметры без учета технологий:
+Броня: 10000
+Щиты : 10000
+Атака: 1]]></text>
+		</TechTreeItem>
+		<WeaponItem id="408">
+			<title><![CDATA[Большой энергокупол]]></title>
+			<text><![CDATA[Большой энергетический купол надстраивается над малым и окутывает всю планету на более высоком уровне стратосферы. Принимая на себя все удары вражеского флота, энергетический купол не мешает стрельбе собственных оборонительных сооружений и флота.
+Базовые параметры без учета технологий:
+Броня: 10000
+Щиты : 10000
+Атака: 1]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="409">
+			<title><![CDATA[Планетарная оборона]]></title>
+			<text><![CDATA[Данная технология пока недоступна в игре.]]></text>
+		</TechTreeItem>
+		<WeaponItem id="409">
+			<title><![CDATA[Планетарная оборона]]></title>
+			<text><![CDATA[Данная технология пока недоступна в игре.]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="502">
+			<title><![CDATA[Противоракетная защита]]></title>
+			<text><![CDATA[Данная технология пока недоступна в игре.]]></text>
+		</TechTreeItem>
+		<WeaponItem id="502">
+			<title><![CDATA[Противоракетная защита]]></title>
+			<text><![CDATA[Данная технология пока недоступна в игре.]]></text>
+		</WeaponItem>
+
+		<TechTreeItem id="503">
+			<title><![CDATA[Межпланетная торпеда]]></title>
+			<text><![CDATA[Данная технология пока недоступна в игре.]]></text>
+		</TechTreeItem>
+		<WeaponItem id="503">
+			<title><![CDATA[Межпланетная торпеда]]></title>
+			<text><![CDATA[Данная технология пока недоступна в игре.]]></text>
+		</WeaponItem>-->
+
+	</help>
+	<imghelp>
+		<testimg>
+			<title>title</title>
+		        <img>http://habreffect.ru/files/d58/a6be175b6/vacancy-noschedule.gif</img>
+			<next>testimg1</next>
+			<prev></prev>
+		</testimg>
+		<testimg1>
+			<title>title</title>
+		        <img>http://v568.vkadre.ru/assets/thumbnails/c3bc82c0136098637.130.vk.jpg</img>
+			<next></next>
+			<prev>testimg</prev>			
+		</testimg1>
+		<resource-1>
+			<title>Ресурсы (страница 1/3)</title>
+			<img>http://cs10429.userapi.com/u7014359/135097125/x_dd97d83d.jpg</img>
+			<next>resource-2</next>
+			<prev></prev>
+		</resource-1>
+		<resource-2>
+			<title>Ресурсы (страница 2/3)</title>
+			<img>http://cs10429.userapi.com/u7014359/135097125/x_edbdf700.jpg</img>
+			<next>resource-3</next>
+			<prev>resource-1</prev>
+		</resource-2>
+		<resource-3>
+			<title>Ресурсы (страница 3/3)</title>
+			<img>http://cs10429.userapi.com/u7014359/135097125/x_a8d0cda3.jpg</img>
+			<next></next>
+			<prev>resource-2</prev>
+		</resource-3>
+		<planet-1>
+			<title>Планеты, основные сведения</title>
+			<img>http://cs10429.userapi.com/u7014359/135097125/x_449cd6f6.jpg</img>
+			<next></next>
+			<prev></prev>
+		</planet-1>
+		<galaxy-1>
+			<title>Галактика, статусы планет</title>
+			<img>http://cs10429.userapi.com/u7014359/135097125/x_a7dcd397.jpg</img>
+			<next>galaxy-2</next>
+			<prev></prev>
+		</galaxy-1>
+		<galaxy-2>
+			<title>Галактика, устройство</title>
+			<img>http://cs5268.userapi.com/v5268359/6cc/t_PIfijkufY.jpg</img>
+			<next></next>
+			<prev>galaxy-1</prev>
+		</galaxy-2>
+	</imghelp>
+
+	<errors>
+		<error id="1">Не верные данные</error>
+		<error id="2">Не верные данные флота</error>
+		<error id="3">Не верная цель</error>
+		<error id="4">Не верная миссия</error>
+		<error id="5">Не верная цель для данной миссии</error>
+		<error id="6">Нельзя создать больше флотов</error>
+		<error id="7">Не хватает топлива</error>
+		<error id="8">Защита новичка. Найдите ровню себе.</error>
+		<error id="9">Цель находится в режиме отпуска.</error>
+		<error id="10">Цель забанена.</error>
+		<error id="11">Цель не содержит обломков.</error>
+		<error id="12">Вы отправляете флоты слишком быстро.</error>
+		<error id="13">Исследуйте Тахионное сканирование чтобы оснастить экспедицию.</error>
+		<error id="14">Вы не состоите в том же альянсе что и этот человек.</error>
+		<error id="15">Нет места на заправочной базе.</error>
+		<error id="16">Невозможно отправить ресурсы.</error>
+		<error id="17">Базы ещё не готовы для принятия флотов.</error>
+		<error id="18">Неверная грузоподъёмность</error>
+		<error id="19">Перемирие.</error>
+		<error id="20">Вы отсылаете слишком много шпионов.</error>
+		<error id="21">Ошибка создания саба.</error>
+		<error id="22">Ошибка присоединения саба.</error>
+		<error id="23">Вы не можете совершать прыжок без Звездных врат.</error>
+		<error id="24">Вы не можете прыгать так часто.</error>
+		<error id="25">Врата не могут переправить такой большой флот</error>
+		<error id="26"><![CDATA[Ошибка Капчи]]></error>
+	</errors>
+
+	<quests>
+		<quest quest_id="1">
+			<quest_state quest_state="1">
+				<frame>Первый кадр первого квеста. тут много всякого флуда)))</frame></quest_state></quest></quests></root>
