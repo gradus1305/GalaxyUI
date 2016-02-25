@@ -12,8 +12,8 @@ TextureImporter:
     correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
-    mipMapFadeDistanceStart: 0
-    mipMapFadeDistanceEnd: 10
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
@@ -30,7 +30,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: 1
-    aniso: 4
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -39,18 +39,18 @@ TextureImporter:
   compressionQuality: 50
   allowsAlphaSplitting: 0
   spriteMode: 1
-  spriteExtrude: 5
+  spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   textureType: 5
   buildTargetSettings:
   - buildTarget: iPhone
     maxTextureSize: 1024
-    textureFormat: 3
+    textureFormat: 4
     compressionQuality: 50
     allowsAlphaSplitting: 0
   spriteSheet:
