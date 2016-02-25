@@ -3,7 +3,8 @@ guid: 104c536649f54424681d93ba24638df2
 timeCreated: 1426172992
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    8900000: generatedCubemap
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: 1
-    aniso: 16
+    aniso: 3
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -40,7 +41,7 @@ TextureImporter:
   allowsAlphaSplitting: 0
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
