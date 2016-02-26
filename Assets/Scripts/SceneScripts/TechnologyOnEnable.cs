@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class TechnologyOnEnable : MonoBehaviour
@@ -6,6 +7,8 @@ public class TechnologyOnEnable : MonoBehaviour
     public GameObject technologyBlocks;
     public GameObject ScrManager;
     ScreenManager scrnM;
+    VerticalLayoutGroup vlG;
+    ContentSizeFitter csF;
 
     public GameObject loadingPanel;
 
@@ -26,6 +29,10 @@ public class TechnologyOnEnable : MonoBehaviour
         yield return new WaitForSeconds(1f);
         scrnM.ShowCurrentPanel();
         loadingPanel.SetActive(false);
+        vlG = technologyBlocks.transform.GetComponent<VerticalLayoutGroup>();
+        csF = technologyBlocks.transform.GetComponent<ContentSizeFitter>();
+        vlG.enabled = false;
+        csF.enabled = false;
     }
 
     IEnumerator RefreshBlock(BlockController _blc)
