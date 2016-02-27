@@ -9,6 +9,7 @@ public class TechnologyOnEnable : MonoBehaviour
     ScreenManager scrnM;
     VerticalLayoutGroup vlG;
     ContentSizeFitter csF;
+    LayoutElement le;
 
     public GameObject loadingPanel;
 
@@ -31,8 +32,10 @@ public class TechnologyOnEnable : MonoBehaviour
         loadingPanel.SetActive(false);
         vlG = technologyBlocks.transform.GetComponent<VerticalLayoutGroup>();
         csF = technologyBlocks.transform.GetComponent<ContentSizeFitter>();
+        le = technologyBlocks.transform.GetComponentInChildren<LayoutElement>();
         vlG.enabled = false;
         csF.enabled = false;
+        le.enabled = false;
     }
 
     IEnumerator RefreshBlock(BlockController _blc)
